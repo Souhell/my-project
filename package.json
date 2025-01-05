@@ -1,0 +1,17 @@
+{
+  "name": "nodeconsoleapp2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.17.0"
+  }
+}
