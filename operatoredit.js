@@ -23,7 +23,7 @@ async function operatoredit() {
         const loginpath = "/html/body/div[1]/div[1]/form/div";
         await driver.findElement(By.xpath(loginpath + "/div[2]/div/div/input")).sendKeys("Admin");
         await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("12345678");
-        await driver.findElement(By.id(":R556d7rrrtkq:")).click();
+        await driver.findElement(By.xpath("//button[text()='ورود']")).click();
 
         // بررسی عنوان صفحه
         await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 5000);
@@ -38,8 +38,11 @@ async function operatoredit() {
         }
 
         // کلیک روی لینک "اپراتورها"
-        await driver.wait(until.elementLocated(By.css('a[href="/admin/production/operators"]')), 5000);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 10000);
+        await driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")).click();
+        await driver.sleep(10000)
         await driver.findElement(By.css('a[href="/admin/production/operators"]')).click();
+        await driver.sleep(10000)
 
         // تولید شماره موبایل تصادفی
         const randomNumber = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join('');
@@ -76,22 +79,35 @@ async function operatoredit() {
         const nationalId = generateNationalId();
         console.log("Generated National ID:", nationalId);
 
-        // کلیک روی دکمه "اضافه کردن اپراتور"
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/main/div/div[1]/button")), 5000);
-        await driver.findElement(By.xpath("/html/body/div[1]/main/div/div[1]/button")).click();
+        // کلیک روی دکمه "ویرایش اپراتور"
+        await driver.findElement(By.css("svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.muirtl-lw08pq-MuiSvgIcon-root"))    
+        .click();
+
+
+        
 
         // پر کردن فرم اطلاعات اپراتور
-        await driver.findElement(By.name("firstname")).sendKeys("111");
-        await driver.sleep(10000);
+        await driver.findElement(By.name("firstname")).
+        await driver.findElement(By.name("firstname")).sendKeys("اپراتور" + randomNumber);
+        await driver.sleep(1000);
 
-        await driver.findElement(By.name("lastname")).sendKeys("2");
-        await driver.findElement(By.name("nationalId")).sendKeys(nationalId);
-        await driver.findElement(By.name("personalId")).sendKeys("4");
+        await driver.findElement(By.name("lastname")).clear
+        await driver.sleep(1000);
+        await driver.findElement(By.name("lastname")).sendKeys("تستی");
+        await driver.sleep(1000);
+        //await driver.findElement(By.name("nationalId")).sendKeys(nationalId);
+        await driver.findElement(By.name("personalId")).clear
+        await driver.findElement(By.name("personalId")).sendKeys("0");
+        await driver.sleep(1000);
+        await driver.findElement(By.name("mobile")).clear
         await driver.findElement(By.name("mobile")).sendKeys("0930" + randomNumber);
+        await driver.sleep(1000);
 
         // ارسال فرم
         await driver.findElement(By.xpath('//*[@type="submit"]')).click();
+        await driver.sleep(1000);
         console.log(`${colors.green}Form submitted successfully!${colors.reset}`);
+        await driver.sleep(1000);
 
     } catch (error) {
         // مدیریت خطاها

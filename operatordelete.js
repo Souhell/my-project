@@ -24,7 +24,8 @@ async function operatordelete() {
         await driver.findElement(By.xpath(loginpath + "/div[2]/div/div/input")).sendKeys("Admin");
         await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("12345678");
         //await driver.findElement(By.xpath(loginpath + "/div[4]/div[2]/div/input")).sendKeys("1");
-        await driver.findElement(By.id(":R556d7rrrtkq:")).click();
+        await driver.findElement(By.xpath("//button[text()='ورود']")).click();
+        await driver.sleep(10000)
 
         // بررسی عنوان صفحه
         await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 5000);
@@ -49,18 +50,19 @@ async function operatordelete() {
         };
 
         // کلیک روی لینک "اپراتورها"
-        await driver.wait(until.elementLocated(By.xpath("//h6[starts-with(text(), 'مدیریت')]")), 5000);
-        await driver.wait(until.elementLocated(By.css('a[href="/admin/production/operators"]')), 5000);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 1000);
+        await driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")).click();
+        await driver.sleep(1000)
         await driver.findElement(By.css('a[href="/admin/production/operators"]')).click();
+        await driver.sleep(1000)
 
         // صبر برای بارگذاری جدول
-        await driver.sleep(5000);
+        await driver.sleep(500);
 
         // پیدا کردن و کلیک روی عنصر SVG
-        const svgElementPath =
-            "/html/body/div[1]/main/div/div[2]/div/div[2]/div/table/tbody/tr[1]/td[5]/span/div/*[name()='svg'][3]";
-        const svgElement = await driver.findElement(By.xpath(svgElementPath));
-        await driver.actions().move({ origin: svgElement }).click().perform();
+        await driver.findElement(By.css("svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.muirtl-15qj732-MuiSvgIcon-root"))    
+        .click();
+        await driver.findElement(By.css("#\:r16\:")).click
 
         // صبر برای باز شدن دیالوگ حذف
         await driver.sleep(2000);
