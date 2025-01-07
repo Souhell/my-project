@@ -708,3 +708,398 @@ from unknown error: web view not found
 [LOG]: [32mLogin successful![0m
 [LOG]: [32mLogin successful![0m
 [ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 7818455
+[LOG]: Generated Number:
+[ERROR]: [ERROR] 2025-01-06T10:08:22.365Z: WebDriverError: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 0710540
+[LOG]: Generated Number:
+[ERROR]: [ERROR] 2025-01-06T10:08:46.841Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:74:9)
+    at async run (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:93:5)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 9611626
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[ERROR]: [ERROR] 2025-01-06T10:09:59.535Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:74:9)
+    at async run (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:93:5)
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 1656048
+[LOG]: Generated Number:
+[ERROR]: [ERROR] 2025-01-06T10:10:14.678Z: WebDriverError: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 7628953
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [ERROR] 2025-01-06T10:11:34.937Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:74:9)
+    at async run (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:93:5)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 0389543
+[LOG]: Generated Number:
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [ERROR] 2025-01-06T10:28:06.502Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:74:9)
+    at async run (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:93:5)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 3470580
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [ERROR] 2025-01-06T10:30:15.481Z: WebDriverError: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR] 2025-01-07T08:40:34.231Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR] 2025-01-07T08:47:11.793Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR] 2025-01-07T08:49:12.663Z: TimeoutError: Waiting for element to be located By(xpath, //table/tbody/tr[1]//button[text()='ویرایش'])
+Wait timed out after 20039ms
+    at C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:928:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR] 2025-01-07T08:54:10.196Z: TimeoutError: Waiting for element to be located By(xpath, //table/tbody/tr[1]//button[text()='ویرایش'])
+Wait timed out after 20064ms
+    at C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:928:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR] 2025-01-07T09:00:21.533Z: TimeoutError: Waiting for element to be located By(xpath, //table/tbody/tr[1]//button[text()='ویرایش'])
+Wait timed out after 20009ms
+    at C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:928:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR] 2025-01-07T09:23:34.223Z: ReferenceError: Operatorcreate is not defined
+    at operatorFlow (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR] 2025-01-07T09:27:07.169Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async login (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:47:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:108:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:27:07.201Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:27:07.244Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:27:07.285Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:27:07.323Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:27:07.361Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:27:07.396Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR] 2025-01-07T09:29:13.510Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async login (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:47:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:108:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.547Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.595Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.629Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.670Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.708Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.746Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.772Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:109:9)
+[ERROR]: [ERROR] 2025-01-07T09:29:13.797Z: ReferenceError: Operatoredit is not defined
+    at Operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:110:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR during editOperator]: Waiting for element to be located By(xpath, //table/tbody/tr[1]//button[text()='ویرایش'])
+Wait timed out after 20070ms
+[ERROR]: [ERROR during deleteOperator]: Waiting for element to be located By(xpath, //table/tbody/tr[1]//button[text()='حذف'])
+Wait timed out after 20023ms
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR in main execution]: Operatorcreate is not defined
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR in main execution]: Operatoredit is not defined
+[ERROR]: [ERROR during createOperator]: Cannot read properties of undefined (reading 'wait')
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR in main execution]: Operatoredit is not defined
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful: سام‌تل verified[0m
+[ERROR]: [ERROR during createOperator]: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.205)
+[ERROR]: [ERROR in main execution]: Operatoredit is not defined
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 0037739
+[LOG]: Generated Number:
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [ERROR] 2025-01-07T09:46:09.488Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:74:9)
+    at async run (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:93:5)
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 5313195
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [ERROR] 2025-01-07T10:06:41.421Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 4391610
+[LOG]: Generated Number:
+[ERROR]: [ERROR] 2025-01-07T10:40:19.770Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async operatorcreate (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:74:9)
+    at async run (C:\Users\m.baharlu\source\repos\NodeConsoleApp2\NodeConsoleApp2\app.js:93:5)
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m

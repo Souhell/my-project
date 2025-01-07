@@ -22,7 +22,7 @@ async function operatoredit() {
         // ورود اطلاعات لاگین
         const loginpath = "/html/body/div[1]/div[1]/form/div";
         await driver.findElement(By.xpath(loginpath + "/div[2]/div/div/input")).sendKeys("Admin");
-        await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("123456Aa@");
+        await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("12345678");
         await driver.findElement(By.id(":R556d7rrrtkq:")).click();
 
         // بررسی عنوان صفحه
@@ -102,4 +102,5 @@ async function operatoredit() {
     }
 }
 
+operatoredit();
 exports.operatoredit = operatoredit;

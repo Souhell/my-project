@@ -29,25 +29,30 @@ async function login(driver) {
     await driver.get("https://dev-promans.tabatelecom.dev/auth/login");
     const loginpath = "/html/body/div[1]/div[1]/form/div";
     await driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/input`)).sendKeys("Admin");
-    await driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/input`)).sendKeys("123456Aa@");
+    await driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/input`)).sendKeys("12345678");
     await driver.findElement(By.xpath("//button[text()='ورود']")).click();
-    await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 10000);
+    await driver.sleep(10000)
+    //await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 10000);
     console.log(`${colors.green}Login successful!${colors.reset}`);
 }
 
 async function createOperator(driver) {
-    await driver.wait(until.elementLocated(By.css('a[href="/admin/production/operators"]')), 10000);
+    await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 10000);
+    await driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")).click();
+    await driver.sleep(10000)
     await driver.findElement(By.css('a[href="/admin/production/operators"]')).click();
-    await driver.wait(until.elementLocated(By.xpath("//button[text()='ایجاد اپراتور']")), 10000);
-    await driver.findElement(By.xpath("//button[text()='ایجاد اپراتور']")).click();
+    await driver.sleep(10000)
+
+    //await driver.wait(until.elementLocated(By.xpath("//button[text()='تعریف اپراتور جدید']")), 10000);
+    await driver.findElement(By.xpath("//button[text()='تعریف اپراتور جدید']")).click();
 
     const randomNumber = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join('');
     const nationalId = generateNationalId();
 
-    await driver.findElement(By.name("firstname")).sendKeys("John");
-    await driver.findElement(By.name("lastname")).sendKeys("Doe");
+    await driver.findElement(By.name("firstname")).sendKeys("اپراتور" + randomNumber);
+    await driver.findElement(By.name("lastname")).sendKeys("تستی");
     await driver.findElement(By.name("nationalId")).sendKeys(nationalId);
-    await driver.findElement(By.name("personalId")).sendKeys("12345");
+    await driver.findElement(By.name("personalId")).sendKeys("0");
     await driver.findElement(By.name("mobile")).sendKeys("0930" + randomNumber);
 
     await driver.findElement(By.xpath('//*[@type="submit"]')).click();

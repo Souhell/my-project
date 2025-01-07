@@ -22,7 +22,7 @@ async function operatordelete() {
         // ورود اطلاعات لاگین
         const loginpath = "/html/body/div[1]/div[1]/form/div";
         await driver.findElement(By.xpath(loginpath + "/div[2]/div/div/input")).sendKeys("Admin");
-        await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("123456Aa@");
+        await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("12345678");
         //await driver.findElement(By.xpath(loginpath + "/div[4]/div[2]/div/input")).sendKeys("1");
         await driver.findElement(By.id(":R556d7rrrtkq:")).click();
 
@@ -79,5 +79,5 @@ async function operatordelete() {
         await driver.quit();
     }
 }
-
+operatordelete();
 exports.operatordelete = operatordelete;
