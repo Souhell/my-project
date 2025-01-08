@@ -16,7 +16,7 @@ async function operatordelete() {
     try {
         // باز کردن صفحه لاگین
         await driver.get("https://dev-promans.tabatelecom.dev/auth/login");
-        await driver.manage().setTimeouts({ implicit: 20000 });
+        await driver.manage().setTimeouts({ implicit: 2000 });
         await driver.manage().window().maximize();
 
         // ورود اطلاعات لاگین
@@ -25,7 +25,7 @@ async function operatordelete() {
         await driver.findElement(By.xpath(loginpath + "/div[3]/div/div/input")).sendKeys("12345678");
         //await driver.findElement(By.xpath(loginpath + "/div[4]/div[2]/div/input")).sendKeys("1");
         await driver.findElement(By.xpath("//button[text()='ورود']")).click();
-        await driver.sleep(10000)
+        await driver.sleep(1000)
 
         // بررسی عنوان صفحه
         await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 5000);

@@ -1226,3 +1226,681 @@ from unknown error: web view not found
 [LOG]: ==== 66 ====
 [LOG]: ==== 70 ====
 [LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 8296753
+[LOG]: Generated Number:
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[ERROR]: [ERROR] 2025-01-08T13:14:27.384Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 3923898
+[LOG]: Generated Number:
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[ERROR]: [ERROR] 2025-01-08T13:19:55.678Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 9532199
+[LOG]: Generated Number:
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[ERROR]: [ERROR] 2025-01-08T13:23:26.875Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 9269588
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[ERROR]: [ERROR] 2025-01-08T13:24:41.471Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mTitle is correct![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 9430463
+[LOG]: Generated Number:
+[LOG]: 9430463
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [ERROR] 2025-01-08T13:26:41.537Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[ERROR]: [31mError occurred:[0m
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 4038309
+[LOG]: Generated Number:
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[ERROR]: [ERROR] 2025-01-08T13:28:47.640Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[ERROR]: [31mError occurred:[0m
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 8179142
+[LOG]: Generated Number:
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mOperator created successfully![0m
+[LOG]: [32mOperator created successfully![0m
+[ERROR]: [ERROR] 2025-01-08T13:29:51.400Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=131.0.6778.205)
+    at Object.throwDecodedError (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async toWireValue (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+    at async C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+    at async forEachKey (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+    at async convertKeys (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+    at async Driver.execute (C:\Users\m.baharlu\node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated Random Number (Mobile):
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: Generated National ID:
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: ==== element ====
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[LOG]: ==== end ===
+[ERROR]: [31mError occurred:[0m
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: [object Object]
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 66 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: ==== 70 ====
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mOperator deleted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m
+[LOG]: [32mForm submitted successfully![0m

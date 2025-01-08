@@ -31,7 +31,7 @@ async function operatoredit() {
     try {
         // باز کردن صفحه لاگین
         await driver.get("https://dev-promans.tabatelecom.dev/auth/login");
-        await driver.manage().setTimeouts({ implicit: 20000 });
+        await driver.manage().setTimeouts({ implicit: 2000 });
         await driver.manage().window().maximize();
 
         // ورود اطلاعات لاگین
@@ -119,7 +119,7 @@ async function operatoredit() {
 
 
 
-        await driver.sleep(1000000);
+        await driver.sleep(1000);
         await driver.findElement(By.name("lastname")).sendKeys("تستی");
         await driver.sleep(1000);
         //await driver.findElement(By.name("nationalId")).sendKeys(nationalId);

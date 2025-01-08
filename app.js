@@ -31,7 +31,7 @@ async function operatorcreate() {
 
     try {
         await driver.get("https://dev-promans.tabatelecom.dev/auth/login");
-        await driver.manage().setTimeouts({ implicit: 20000 });
+        await driver.manage().setTimeouts({ implicit: 2000 });
         await driver.manage().window().maximize();
 
         const loginpath = "/html/body/div[1]/div[1]/form/div";
@@ -39,7 +39,7 @@ async function operatorcreate() {
         await driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/input`)).sendKeys("12345678");
         await driver.findElement(By.xpath("//button[text()='ورود']")).click();
 
-        await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 5000);
+        await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 500);
 
         let bodyText = await driver.findElement(By.css("body")).getText();
         if (bodyText.includes("سام‌تل")) {
@@ -72,10 +72,10 @@ async function operatorcreate() {
         console.log("Generated Number:", result);
 
         await driver.findElement(By.xpath("//a[contains(text(),'مدیریت تولید')]")).click();
-        await driver.wait(until.elementLocated(By.xpath("//button[text()='ایجاد']")), 10000);
+        await driver.wait(until.elementLocated(By.xpath("//button[text()='ایجاد']")), 1000);
         await driver.findElement(By.xpath("//button[text()='ایجاد']")).click();
 
-        await driver.wait(until.elementLocated(By.name("firstname")), 10000);
+        await driver.wait(until.elementLocated(By.name("firstname")), 1000);
         await driver.findElement(By.name("firstname")).sendKeys("1");
         await driver.findElement(By.name("lastname")).sendKeys("2");
         await driver.findElement(By.name("nationalId")).sendKeys(result);
@@ -91,7 +91,7 @@ async function operatorcreate() {
 
 (async function run() {
     await operatorcreate();
-    await x.operatordelete();
-    await y.operatoredit();
-    await z.operatorall();
+    //await x.operatordelete();
+    //await y.operatoredit();
+    //await z.operatorall();
 })();

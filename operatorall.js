@@ -31,17 +31,17 @@ async function login(driver) {
     await driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/input`)).sendKeys("Admin");
     await driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/input`)).sendKeys("12345678");
     await driver.findElement(By.xpath("//button[text()='ورود']")).click();
-    await driver.sleep(10000)
+    await driver.sleep(1000)
     //await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 10000);
     console.log(`${colors.green}Login successful!${colors.reset}`);
 }
 
 async function createOperator(driver) {
-    await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 10000);
+    await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 1000);
     await driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")).click();
-    await driver.sleep(10000)
+    await driver.sleep(1000)
     await driver.findElement(By.css('a[href="/admin/production/operators"]')).click();
-    await driver.sleep(10000)
+    await driver.sleep(1000)
 
     //await driver.wait(until.elementLocated(By.xpath("//button[text()='تعریف اپراتور جدید']")), 10000);
     await driver.findElement(By.xpath("//button[text()='تعریف اپراتور جدید']")).click();
@@ -60,7 +60,7 @@ async function createOperator(driver) {
 }
 
 async function editOperator(driver) {
-    await driver.wait(until.elementLocated(By.xpath("//table/tbody/tr[1]//button[text()='ویرایش']")), 10000);
+    await driver.wait(until.elementLocated(By.xpath("//table/tbody/tr[1]//button[text()='ویرایش']")), 1000);
     await driver.findElement(By.xpath("//table/tbody/tr[1]//button[text()='ویرایش']")).click();
 
     await driver.findElement(By.name("firstname")).clear();
@@ -71,7 +71,7 @@ async function editOperator(driver) {
 }
 
 async function deleteOperator(driver) {
-    await driver.wait(until.elementLocated(By.xpath("//table/tbody/tr[1]//button[text()='حذف']")), 10000);
+    await driver.wait(until.elementLocated(By.xpath("//table/tbody/tr[1]//button[text()='حذف']")), 1000);
     await driver.findElement(By.xpath("//table/tbody/tr[1]//button[text()='حذف']")).click();
     await driver.wait(until.elementLocated(By.xpath("//button[text()='تایید']")), 5000);
     await driver.findElement(By.xpath("//button[text()='تایید']")).click();
