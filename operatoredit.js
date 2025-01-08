@@ -1,10 +1,25 @@
-const { Builder, By, until } = require("selenium-webdriver");
+const { Builder, By, until, Key } = require("selenium-webdriver"); 
 const fs = require("fs");
 const path = require("path");
 
 async function operatoredit() {
     // تعریف WebDriver
     let driver = await new Builder().forBrowser("chrome").build();
+
+
+    async  function change(element,text){
+
+        console.log("==== element ====");
+        console.log(element)
+       
+        selectAll = Key.chord(Key.CONTROL, "a");
+        await   element.sendKeys(selectAll);
+        await   element.sendKeys(text);
+
+        console.log("==== end ===");
+
+
+    }
 
     // تعریف رنگ‌ها برای لاگ‌ها
     const colors = {
@@ -38,11 +53,11 @@ async function operatoredit() {
         }
 
         // کلیک روی لینک "اپراتورها"
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 10000);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 1000);
         await driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")).click();
-        await driver.sleep(10000)
+        await driver.sleep(1000)
         await driver.findElement(By.css('a[href="/admin/production/operators"]')).click();
-        await driver.sleep(10000)
+        await driver.sleep(1000)
 
         // تولید شماره موبایل تصادفی
         const randomNumber = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join('');
@@ -82,26 +97,41 @@ async function operatoredit() {
         // کلیک روی دکمه "ویرایش اپراتور"
         await driver.findElement(By.css("svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.muirtl-lw08pq-MuiSvgIcon-root"))    
         .click();
+        
 
 
         
 
         // پر کردن فرم اطلاعات اپراتور
-        await driver.findElement(By.name("firstname")).
-        await driver.findElement(By.name("firstname")).sendKeys("اپراتور" + randomNumber);
-        await driver.sleep(1000);
+        await driver.findElement(By.name("firstname"));
+        
+        const inputField = await driver.findElement(By.name("firstname"));
+        await inputField.sendKeys(Key.chord(Key.CONTROL, "a"), Key.BACK_SPACE);
+        await inputField.sendKeys("اپراتور" + randomNumber);
 
-        await driver.findElement(By.name("lastname")).clear
-        await driver.sleep(1000);
+
+        const element =  await driver.findElement(By.name("lastname"));
+
+        await change(element,"1234");
+
+
+        
+
+
+
+        await driver.sleep(1000000);
         await driver.findElement(By.name("lastname")).sendKeys("تستی");
         await driver.sleep(1000);
         //await driver.findElement(By.name("nationalId")).sendKeys(nationalId);
-        await driver.findElement(By.name("personalId")).clear
+        await driver.findElement(By.name("personalId")).clear();
         await driver.findElement(By.name("personalId")).sendKeys("0");
         await driver.sleep(1000);
-        await driver.findElement(By.name("mobile")).clear
-        await driver.findElement(By.name("mobile")).sendKeys("0930" + randomNumber);
+        const inputfield1 = await driver.findElement(By.name("mobile"));
+        await inputfield1.sendKeys(Key.chord(Key.CONTROL, "a"), Key.BACK_SPACE);
+        await inputfield1.sendKeys("0930" + randomNumber);
         await driver.sleep(1000);
+        //await driver.findElement(By.name("mobile")).sendKeys("0930" + randomNumber);
+        //await driver.sleep(1000);
 
         // ارسال فرم
         await driver.findElement(By.xpath('//*[@type="submit"]')).click();

@@ -62,14 +62,18 @@ async function operatordelete() {
         // پیدا کردن و کلیک روی عنصر SVG
         await driver.findElement(By.css("svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.muirtl-15qj732-MuiSvgIcon-root"))    
         .click();
-        await driver.findElement(By.css("#\:r16\:")).click
-
+        console.log(await driver.findElement(By.css(".MuiDialog-container button")));
+        console.log("==== 66 ====");
+        await driver.sleep(2000);
+        await driver.findElement(By.css(".MuiDialog-container button+button")).click();;
+       // await driver.findElement(By.css(".MuiDialog-container button+button")).click();;
+       console.log("==== 70 ====");
         // صبر برای باز شدن دیالوگ حذف
         await driver.sleep(2000);
 
         // کلیک روی دکمه تایید حذف
-        const confirmDeleteButtonPath = "/html/body/div[3]/div[3]/div/div/div[2]/div/button[2]";
-        await driver.findElement(By.xpath(confirmDeleteButtonPath)).click();
+        // const confirmDeleteButtonPath = "/html/body/div[3]/div[3]/div/div/div[2]/div/button[2]";
+        // await driver.findElement(By.xpath(confirmDeleteButtonPath)).click();
 
         console.log(`${colors.green}Operator deleted successfully!${colors.reset}`);
 
