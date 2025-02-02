@@ -27,12 +27,15 @@ function generateNationalId() {
 
 async function login(driver) {
     await driver.get("https://dev-promans.tabatelecom.dev/auth/login");
+    await driver.manage().setTimeouts({ implicit: 5000 });
     const loginpath = "/html/body/div[1]/div[1]/form/div";
     await driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/input`)).sendKeys("Admin");
+    await driver.sleep(1000)  
     await driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/input`)).sendKeys("12345678");
     await driver.findElement(By.xpath("//button[text()='ورود']")).click();
     await driver.sleep(1000)
-    //await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 10000);
+    await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 10000);
+    await driver.sleep(1000)
     console.log(`${colors.green}Login successful!${colors.reset}`);
 }
 
@@ -44,6 +47,7 @@ async function createOperator(driver) {
     await driver.sleep(1000)
 
     //await driver.wait(until.elementLocated(By.xpath("//button[text()='تعریف اپراتور جدید']")), 10000);
+    await driver.wait(until.elementLocated(By.xpath("//button[text()='تعریف اپراتور جدید']")), 1000);
     await driver.findElement(By.xpath("//button[text()='تعریف اپراتور جدید']")).click();
 
     const randomNumber = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join('');
@@ -72,10 +76,13 @@ async function editOperator(driver) {
 
 async function deleteOperator(driver) {
     await driver.wait(until.elementLocated(By.xpath("//table/tbody/tr[1]//button[text()='حذف']")), 1000);
+    await driver.sleep(10000)  
     await driver.findElement(By.xpath("//table/tbody/tr[1]//button[text()='حذف']")).click();
+    await driver.sleep(10000)  
     await driver.wait(until.elementLocated(By.xpath("//button[text()='تایید']")), 5000);
+    await driver.sleep(10000)  
     await driver.findElement(By.xpath("//button[text()='تایید']")).click();
-
+    await driver.sleep(10000)  
     console.log(`${colors.green}Operator deleted successfully!${colors.reset}`);
 }
 
