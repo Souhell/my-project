@@ -1,0 +1,22 @@
+[
+  {
+    "domain": "frontbuildstage.ariansystemdp.local",
+    "expiry": 1784711617,
+    "httpOnly": false,
+    "name": "lang",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fa"
+  },
+  {
+    "domain": "frontbuildstage.ariansystemdp.local",
+    "expiry": 1784711616,
+    "httpOnly": false,
+    "name": "NEXT_LOCALE",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fa"
+  }
+]

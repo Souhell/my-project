@@ -1,0 +1,3037 @@
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: back button clicked.
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: File path sent to input.
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: File path sent to input.
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: 👉 Navigating to login page...
+[LOG]: [32m[32m👉 Navigating to login page...[0m[0m
+[LOG]: [32m👉 Navigating to login page...[0m
+[LOG]: [32m[32m[32m👉 Navigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: ✅ Login button clicked.
+[LOG]: [32m✅ Login button clicked.[0m
+[LOG]: [32m[32m[32m✅ Login button clicked.[0m[0m[0m
+[LOG]: [32m[32m✅ Login button clicked.[0m[0m
+[LOG]: ✅ Redirected to dashboard.
+[LOG]: [32m✅ Redirected to dashboard.[0m
+[LOG]: [32m[32m✅ Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32m✅ Redirected to dashboard.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: ✅ Explanation button clicked.
+[LOG]: [32m✅ Explanation button clicked.[0m
+[LOG]: [32m[32m✅ Explanation button clicked.[0m[0m
+[LOG]: [32m[32m[32m✅ Explanation button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: ✅ Opened modal for form.
+[LOG]: [32m✅ Opened modal for form.[0m
+[LOG]: [32m[32m✅ Opened modal for form.[0m[0m
+[LOG]: [32m[32m[32m✅ Opened modal for form.[0m[0m[0m
+[LOG]: 🆔 Generated Mobile:
+[LOG]: 🆔 Generated National ID:
+[LOG]: [32m[32m🆔 Generated Mobile:[0m[0m
+[LOG]: [32m[32m🆔 Generated National ID:[0m[0m
+[LOG]: [32m🆔 Generated Mobile:[0m
+[LOG]: [32m🆔 Generated National ID:[0m
+[LOG]: [32m[32m[32m🆔 Generated Mobile:[0m[0m[0m
+[LOG]: [32m[32m[32m🆔 Generated National ID:[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: 📎 File attached.
+[LOG]: [32m📎 File attached.[0m
+[LOG]: [32m[32m📎 File attached.[0m[0m
+[LOG]: [32m[32m[32m📎 File attached.[0m[0m[0m
+[LOG]: ⬆️ Upload button clicked.
+[LOG]: [32m⬆️ Upload button clicked.[0m
+[LOG]: [32m[32m⬆️ Upload button clicked.[0m[0m
+[LOG]: [32m[32m[32m⬆️ Upload button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[ERROR]: ❌ خطا در اجرای x:
+[ERROR]: [31m❌ خطا در اجرای x:[0m
+[ERROR]: [31m[31m❌ خطا در اجرای x:[0m[0m
+[ERROR]: [31m[31m[31m❌ خطا در اجرای x:[0m[0m[0m
+[ERROR]: ❌ خطا در اجرای y:
+[ERROR]: ❌ خطا در اجرای z:
+[ERROR]: [31m❌ خطا در اجرای y:[0m
+[ERROR]: [31m❌ خطا در اجرای z:[0m
+[ERROR]: [31m[31m❌ خطا در اجرای y:[0m[0m
+[ERROR]: [31m[31m❌ خطا در اجرای z:[0m[0m
+[ERROR]: [31m[31m[31m❌ خطا در اجرای y:[0m[0m[0m
+[ERROR]: [31m[31m[31m❌ خطا در اجرای z:[0m[0m[0m
+[LOG]: 🧹 مرورگر بسته شد.
+[LOG]: [32m[32m🧹 مرورگر بسته شد.[0m[0m
+[LOG]: [32m[32m[32m🧹 مرورگر بسته شد.[0m[0m[0m
+[LOG]: [32m🧹 مرورگر بسته شد.[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: 👉 مرحله 1: ورود به سیستم...
+[LOG]: [32m👉 مرحله 1: ورود به سیستم...[0m
+[LOG]: [32m[32m👉 مرحله 1: ورود به سیستم...[0m[0m
+[LOG]: [32m[32m[32m👉 مرحله 1: ورود به سیستم...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: ✅ دکمه ورود کلیک شد.
+[LOG]: [32m✅ دکمه ورود کلیک شد.[0m
+[LOG]: [32m[32m[32m✅ دکمه ورود کلیک شد.[0m[0m[0m
+[LOG]: [32m[32m✅ دکمه ورود کلیک شد.[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: ❌ خطای کلی در اجرای اسکریپت:
+[ERROR]: [31m[31m❌ خطای کلی در اجرای اسکریپت:[0m[0m
+[ERROR]: [31m❌ خطای کلی در اجرای اسکریپت:[0m
+[ERROR]: [31m[31m[31m❌ خطای کلی در اجرای اسکریپت:[0m[0m[0m
+[LOG]: 🧹 مرورگر بسته شد.
+[LOG]: [32m🧹 مرورگر بسته شد.[0m
+[LOG]: [32m[32m[32m🧹 مرورگر بسته شد.[0m[0m[0m
+[LOG]: [32m[32m🧹 مرورگر بسته شد.[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[ERROR]: هیچ دکمه‌ای پیدا نشد!
+[ERROR]: [31mهیچ دکمه‌ای پیدا نشد![0m
+[ERROR]: [31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m
+[ERROR]: [31m[31m[31mهیچ دکمه‌ای پیدا نشد![0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mback button clicked.[0m
+[LOG]: back button clicked.
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: An error occurred:
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[ERROR]: An error occurred:
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: Login button clicked.
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: Upload button clicked.
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: Login button clicked.
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated National ID:[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mBrowser closed.[0m[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: [32mback button clicked.[0m
+[LOG]: back button clicked.
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mback button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated National ID:[0m[0m[0m[0m
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32m[32m[32mBrowser closed.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mback button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated National ID:[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mBrowser closed.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: back button clicked.
+[LOG]: [32mback button clicked.[0m
+[LOG]: [32m[32mback button clicked.[0m[0m
+[LOG]: [32m[32m[32mback button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mback button clicked.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: Generated Random Number (Mobile):
+[LOG]: [32mGenerated Random Number (Mobile):[0m
+[LOG]: [32m[32mGenerated Random Number (Mobile):[0m[0m
+[LOG]: [32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated Random Number (Mobile):[0m[0m[0m[0m
+[LOG]: Generated National ID:
+[LOG]: [32mGenerated National ID:[0m
+[LOG]: [32m[32mGenerated National ID:[0m[0m
+[LOG]: [32m[32m[32mGenerated National ID:[0m[0m[0m
+[LOG]: [32m[32m[32m[32mGenerated National ID:[0m[0m[0m[0m
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[ERROR]: An error occurred:
+[ERROR]: [31mAn error occurred:[0m
+[ERROR]: [31m[31m[31mAn error occurred:[0m[0m[0m
+[ERROR]: [31m[31mAn error occurred:[0m[0m
+[ERROR]: [31m[31m[31m[31mAn error occurred:[0m[0m[0m[0m
+[LOG]: Browser closed.
+[LOG]: [32mBrowser closed.[0m
+[LOG]: [32m[32mBrowser closed.[0m[0m
+[LOG]: [32m[32m[32mBrowser closed.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mBrowser closed.[0m[0m[0m[0m
+[LOG]: [32mNavigating to login page...[0m
+[LOG]: [32m[32mNavigating to login page...[0m[0m
+[LOG]: Navigating to login page...
+[LOG]: [32m[32m[32mNavigating to login page...[0m[0m[0m
+[LOG]: [32m[32m[32m[32mNavigating to login page...[0m[0m[0m[0m
+[LOG]: Login button clicked.
+[LOG]: [32mLogin button clicked.[0m
+[LOG]: [32m[32mLogin button clicked.[0m[0m
+[LOG]: [32m[32m[32mLogin button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin button clicked.[0m[0m[0m[0m
+[LOG]: Login successful. Redirected to dashboard.
+[LOG]: [32m[32mLogin successful. Redirected to dashboard.[0m[0m
+[LOG]: [32mLogin successful. Redirected to dashboard.[0m
+[LOG]: [32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mLogin successful. Redirected to dashboard.[0m[0m[0m[0m
+[LOG]: [32mexplanation button clicked.[0m
+[LOG]: [32m[32mexplanation button clicked.[0m[0m
+[LOG]: [32m[32m[32mexplanation button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mexplanation button clicked.[0m[0m[0m[0m
+[LOG]: explanation button clicked.
+[LOG]: File path sent to input.
+[LOG]: [32mFile path sent to input.[0m
+[LOG]: [32m[32mFile path sent to input.[0m[0m
+[LOG]: [32m[32m[32mFile path sent to input.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mFile path sent to input.[0m[0m[0m[0m
+[LOG]: Upload button clicked.
+[LOG]: [32mUpload button clicked.[0m
+[LOG]: [32m[32mUpload button clicked.[0m[0m
+[LOG]: [32m[32m[32mUpload button clicked.[0m[0m[0m
+[LOG]: [32m[32m[32m[32mUpload button clicked.[0m[0m[0m[0m

@@ -22,140 +22,82 @@ console.error = function (message) {
     logStream.write(`[ERROR]: ${message}\n`);
     originalError(message);
 };
+//
 
+const cookiesPath = path.join(__dirname, "cookies.json");
+//
 async function operatorcreate() {
     let driver = await new Builder().forBrowser("chrome").build();
 
     try {
-        await driver.get("https://dev-promans.tabatelecom.dev/auth/login");
+        await driver.get("https://frontbuild.ariansystemdp.local/fa");
         await driver.manage().setTimeouts({ implicit: 5000 }); // زمان انتظار افزایش داده شد
         await driver.manage().window().maximize();
 
-        const loginpath = "/html/body/div[1]/div[1]/form/div";
-        await driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/input`)).sendKeys("Admin");
-        await driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/input`)).sendKeys("Aa@123456");
-        await driver.findElement(By.xpath("//button[text()='ورود']")).click();
+        const loginpath = "/html/body/div[3]/main/div/div/div/div[2]/form";
+        await driver.findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`)).sendKeys("12");
+        await driver.findElement(By.xpath(`${loginpath}/div[2]/div/div[2]/div/div/span/input`)).sendKeys("12");
+        await driver.findElement(By.xpath(`${loginpath}/div[4]/div/div[2]/div/div/button`)).click();
         await driver.sleep(1000)
 
 
 
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")), 1000);
-        await driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/ul/li[2]/div/div[2]")).click();
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div/div[3]/div/ul/li[4]")), 1000);
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div/div[3]/div/ul/li[4]")).click();
         await driver.sleep(1000)
-        await driver.findElement(By.css('a[href="/admin/production/phones"]')).click();
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div/div[3]/div/ul/li[4]/ul/li[2]")).click();
         await driver.sleep(1000)   
-        await driver.findElement(By.css("button.MuiButtonBase-root.MuiButton-containedPrimary")).click();
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div/div[3]/div/ul/li[4]/ul/li[2]/ul/li[3]")).click();
         await driver.sleep(1000)  
         
-        await driver.findElement(By.css('div[role="combobox"][aria-haspopup="listbox"]')).click();
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[1]/button")).click();
         await driver.sleep(1000)
-        await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='nokia']]")).click() 
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[1]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")).click() 
         await driver.sleep(1000)    
-        await driver.findElement(By.id('modelCode')).click();
+        await driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div[3]/div[2]/button")).click();
         await driver.sleep(1000)
-        await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='1100']]")).click()
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[2]/button")).click()
         await driver.sleep(1000) 
          //await driver.findElement(By.id("phoneNameTitle")).sendKeys("123");
-         await driver.findElement(By.id('year')).click();
-         await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='2000']]")).click()
-        await driver.sleep(1000)
-
-        
-
-        //await driver.findElement(By.xpath("//div[@role='combobox' and .//p[normalize-space(text())='انتخاب کنید']]")).click()
+         await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")).click();
+         await driver.sleep(1000)
+         //شروع تور
+         await driver.wait(until.elementLocated(By.xpath("/html/body/div[6]/div/div[2]/div/div[3]/div[2]/button[2]"))).click()
         //await driver.sleep(1000)
-        //await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='2000']]")).click()
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[3]/button"))).click()
         //await driver.sleep(1000)
-        await driver.findElement(By.id('network')).click()
-        await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='4G']]")).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('technicalCode')).sendKeys("test")
-        //await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='4G']]")).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('simCard')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.xpath("//li[@role='option' and .//span[normalize-space(text())='2']]")).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('weight')).sendKeys("50")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('madeInId')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.xpath("//li[contains(text(),'امارات')]")).click()
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[3]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[6]/div/div[2]/div/div[3]/div[2]/button[2]"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[4]/button"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[4]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[6]/div/div[2]/div/div[3]/div[2]/button[2]"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[5]/button"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[3]/div/div[5]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]"))).click()
+        //await driver.sleep(1000)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[6]/div/div[2]/div/div[3]/div[2]/button[2]"))).click()
+        //await driver.sleep(1000)
+        const cookiesPath = path.join(__dirname, "cookies.json");
 
-        await driver.sleep(1000)
-        await driver.findElement(By.id('assemblyCountryId')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.xpath("//li[contains(text(),'امارات')]")).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('boxCode')).sendKeys("test1")
-        await driver.sleep(1000)    
-
-        await driver.findElement(By.id('boxWeight')).sendKeys("123")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('chargerCode')).sendKeys("test18")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('chargerWeight')).sendKeys("123")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('batteryCode')).sendKeys("test19")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('batteryWeight')).sendKeys("123")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('handsFreeCheck')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('handsFreeCode')).sendKeys("test20")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('handsFreeWeight')).sendKeys("123")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('manualCodeFa')).sendKeys("21")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('manualFaWeight')).sendKeys("123")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('manualCodeEn')).sendKeys("22")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('manualEnWeight')).sendKeys("123")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('colorFa')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.xpath("//li[contains(@data-value, 'قرمز')]")).click();
-        await driver.sleep(1000)
-        await driver.findElement(By.id('sku')).sendKeys("23")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('barcode')).sendKeys("24")
-        await driver.sleep(1000)
-        await driver.findElement(By.id('acceptButton')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okSpecification')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okCountry')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okBox')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okCharger')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okBattery')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okHandsFree')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okPersianManual')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okEnglishManual')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('okColor')).click()
-        await driver.sleep(1000)
-        await driver.findElement(By.id('submitButton')).click()
-        await driver.sleep(1000)
-        
-
-        
+        const cookies = await driver.manage().getCookies();
+        fs.writeFileSync(cookiesPath, JSON.stringify(cookies, null, 2));
+        //پایان تور
 
 
-        await driver.wait(until.titleIs("پنل مدیریت نوکیا"), 5000); // زمان صبر افزایش یافت
+
+          
+        //await driver.wait(until.titleIs(""), 5000); // زمان صبر افزایش یافت
 
         let bodyText = await driver.findElement(By.css("body")).getText();
-        if (bodyText.includes("سام‌تل")) {
-            console.log(`${colors.green}ok sam tel${colors.reset}`);
+        if (bodyText.includes("آرین")) {
+            console.log(`${colors.green}ok Aryan ${colors.reset}`);
         } else {
-            console.log(`${colors.red}not ok sam tel${colors.reset}`);
+            console.log(`${colors.red}not ok Aryan ${colors.reset}`);
         }
 
         const randomNumber = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join('');

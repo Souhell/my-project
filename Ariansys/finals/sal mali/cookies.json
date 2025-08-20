@@ -1,0 +1,82 @@
+[
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1786541554,
+    "httpOnly": false,
+    "name": "PlaceId",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1/string"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1786541553,
+    "httpOnly": false,
+    "name": "CashierId",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "55/تیرماه 1404"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1786541551,
+    "httpOnly": false,
+    "name": "YearId",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1403/1403"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1786541550,
+    "httpOnly": false,
+    "name": "CurrencyId",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "10000038/کینگ مانی"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1786541549,
+    "httpOnly": false,
+    "name": "LanguageId",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "2/فارسی"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1755027147,
+    "httpOnly": false,
+    "name": "_rAuth",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "B6CC754B642AE1675F73D12CDB959C41E5E97CBD31FE7737DAF071701FD498B5-1"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1755027147,
+    "httpOnly": false,
+    "name": "_auth",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjhCMEYxN0U4MzM4MDQ0NkRBQjEyQzFGNEE5RTNFMDcwIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwOi8vMjE2LjY1LjIwMC4yMTU6MzAwMDYiLCJuYmYiOjE3NTUwMDU1NDcsImlhdCI6MTc1NTAwNTU0NywiZXhwIjoxNzU1MDA2MTQ3LCJhdWQiOiJodHRwOi8vMjE2LjY1LjIwMC4yMTU6MzAwMDYvcmVzb3VyY2VzIiwic2NvcGUiOlsiRXJwU2NvcGUiLCJvcGVuaWQiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdLCJjbGllbnRfaWQiOiJCZmYiLCJzdWIiOiIwMTE4ZDY4Zi1kMzk1LTQ1MTMtODM4Mi0wNzljMTgzNzZmMTEiLCJhdXRoX3RpbWUiOjE3NTUwMDU1NDcsImlkcCI6ImxvY2FsIiwiYWNyIjoibm9yIiwianRpIjoiREQxNDZGMUMwNDU2MDAzMENBRTYwNENGQjlEMTEyNEMifQ.Wo8_xsPqeyxV__Yeeo3WxsFRqcQbb8uhkyAN8EYHSdFtHuTPGhdCatjDLm0x4UJE5rbsHXwLMAh92iyhsNPNS5yMk34YX7q8NIeD5SrPUb-vSjPao72hKyEys_8NdAgCSVgdBkHrgv3WK8N5mpzTt6BtCgkCRG7k6QWy1FhryxXG654Zmw4YkSrr8ZvpTshQqu2zn60gjT-ivHwMA-tBO5MW75XVCDnNBm6XktBXvqhTwUyFYMVzikCP5B99Qufv1S-s92QVsIJl7fTf1pKzvuSg-ciOxXK4jaBhkuV0wtbLsSigQ9Ys--ZhdHFatj2l5GL6xlL7uAFtWgz1ab0mvQ"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1786541546,
+    "httpOnly": false,
+    "name": "NEXT_LOCALE",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fa"
+  }
+]
