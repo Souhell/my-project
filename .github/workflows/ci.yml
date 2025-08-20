@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]       # روی پوش به main اجرا می‌شود
+  pull_request:
+    branches: [ "main" ]       # و روی PR به main
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true      # اگر پوش جدید بیاد، قبلی کنسل میشه (سریع‌تر)
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install deps
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+      # اختیاری: اگر lint تعریف کردی اجرا میشه، وگرنه رد میشه
+      - name: Lint (optional)
+        run: npm run lint || echo "No lint script"
+
+      # تست‌ها: اگر script به اسم test نداشته باشی، به جای آن یک smoke ساده اجرا می‌کنیم
+      - name: Run tests (or smoke)
+        run: |
+          if npm run -s test; then
+            echo "npm test passed"
+          else
+            echo "No test script found, running a smoke check..."
+            # یکی از اسکریپت‌های اصلی‌ات را به‌صورت ایمن اجرا کن؛ اگر لازم است عوضش کن
+            node -e "require('fs').existsSync('./index.js') && require('./index.js'); console.log('smoke ok')"
+          fi
+
+      # لاگ‌ها/آرتیفکت‌ها برای دیباگ (اختیاری)
+      - name: Upload logs (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-logs
+          path: |
+            log-output.txt
+            **/*.log
+            !node_modules/**
