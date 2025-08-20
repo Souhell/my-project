@@ -99,5 +99,5 @@ async function arz() {
         await driver.quit();
     }
 }
-arz();
+// arz();
 module.exports = arz;

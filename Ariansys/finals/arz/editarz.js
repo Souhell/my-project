@@ -113,5 +113,5 @@ async function editarz() {
     }
 }
 
-editarz();
+// editarz();
 module.exports = editarz;

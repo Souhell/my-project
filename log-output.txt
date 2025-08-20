@@ -2173,3 +2173,27 @@ from unknown error: web view not found
 [ERROR]: [31mError occurred:[0m
 [ERROR]: [31mError occurred:[0m
 [ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 2798515
+[LOG]: Generated Number:
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mTitle is correct![0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mText found: سام‌تل[0m
+[LOG]: [32mLogin successful![0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [ERROR] 2025-08-20T06:18:42.101Z: NoSuchElementError: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'مدیریت تولید')]"}
+  (Session info: chrome=139.0.7258.128)
+    at Object.throwDecodedError (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:745:17)
+    at async toWireValue (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:149:15)
+    at async C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:195:16
+    at async forEachKey (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:189:9)
+    at async convertKeys (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:194:3)
+    at async Driver.execute (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:743:22)
+[ERROR]: [31mError occurred:[0m
