@@ -39,7 +39,8 @@ async function phones() {
         await driver.wait(until.elementLocated(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`))).sendKeys("12");
         await driver.wait(until.elementLocated(By.xpath(`${loginpath}/div[2]/div/div[2]/div/div/span/input`))).sendKeys("12");
         await selector.SelectByTitle("ورود"); // فرض بر این که دکمه ورود عنوان دارد
-
+        await driver.findElement(By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")).click();
+        await driver.sleep(1000);
         // منوها و دکمه‌ها (در صورت داشتن عنوان یا title)
         // اگر عنوان دکمه‌ها را می‌دانی، این بخش‌ها را هم با helper جایگزین کن:
         // await selector.SelectByTitle("عنوان دکمه");
@@ -64,30 +65,37 @@ async function phones() {
 
         // شروع تور (در صورت داشتن عنوان، با helper جایگزین کن)
         await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[1]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[1]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[7]/div/div[2]/div/div[3]/div[2]/button")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[7]/div/div[2]/div/div[3]/div[2]/button[2]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[2]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[3]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[3]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[3]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[4]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[4]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
-        await driver.sleep(500)
+        await driver.sleep(500);
 
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[5]")), 5000).click();
-        await driver.sleep(500)
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[5]/div/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
-        await driver.sleep(500)
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[1]")), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[2]")), 5000).click();
+        await driver.sleep(500);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
+        await driver.sleep(500);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[3]")), 5000).click();
+        await driver.sleep(500);
+        await driver.wait(until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and .//span[text()="کینگ مانی"]]`)), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[4]")), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and .//span[text()="1403"]]`)), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[5]")), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
+        await driver.sleep(500);
         // پایان تور
         const cookies = await driver.manage().getCookies();
         fs.writeFileSync(cookiesPath, JSON.stringify(cookies, null, 2));

@@ -23,7 +23,7 @@ function generateNationalId() {
     return digits.join('') + controlDigit;
 }
 
-async function arz() {
+async function nerkharz() {
     const nationalId = generateNationalId();
     console.log("کد ملی تولید شده:", nationalId);
 
@@ -66,16 +66,25 @@ async function arz() {
         await driver.sleep(100);
         await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]")).click();
         await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[6]")).click();
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[4]")).click();
         await driver.sleep(100);
         await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button")).click();
         await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input")).sendKeys(nationalId);
-        await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input")).sendKeys(nationalId);
-        await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div/div/div/div/label")).click();
-        await driver.sleep(1000);
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div")).click;
+                await driver.sleep(100)
+                await driver.findElement(By.css('[title="8249000528"]')).click();
+                await driver.sleep(100)
+        
+                await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div")).click;
+                await driver.sleep(100)
+                await driver.findElement(By.css('[title="8249000528"]')).click();
+                await driver.sleep(100)
+        
+                // await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div/div/div/div/label")).click();
+                // await driver.sleep(1000);
+                await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]")).sendKeys(nationalId);
+                await driver.sleep(100);
+                await driver.sleep(1000);
         
         // await driver.findElement(By.css('[title="سایر"]')).click();
         // await driver.sleep(100)
@@ -99,5 +108,5 @@ async function arz() {
         await driver.quit();
     }
 }
-// arz();
-module.exports = arz;
+// nerkharz();
+module.exports = nerkharz;

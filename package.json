@@ -16,7 +16,10 @@
     "eslint": "^9.17.0"
   },
   "dependencies": {
+    "@wdio/appium-service": "^9.19.1",
+    "@wdio/cli": "^9.19.1",
     "axios": "^1.9.0",
-    "selenium-webdriver": "^4.33.0"
+    "selenium-webdriver": "^4.33.0",
+    "webdriverio": "^9.19.1"
   }
 }

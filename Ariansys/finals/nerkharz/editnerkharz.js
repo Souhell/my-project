@@ -23,7 +23,7 @@ function generateNationalId() {
     return digits.join("") + controlDigit;
 }
 
-async function editarz() {
+async function editnerkharz() {
     const nationalId = generateNationalId();
     console.log("کد ملی تولید شده:", nationalId);
 
@@ -64,7 +64,7 @@ async function editarz() {
         const steps = [
             "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
             "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]",
-            "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[6]",
+            "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[4]",
             "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/span[1]"
         ];
 
@@ -73,19 +73,22 @@ async function editarz() {
             await driver.sleep(100);
         }
 
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input")).sendKeys(Key.CONTROL + 'a');
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input")).sendKeys(Key.DELETE);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input")).sendKeys(nationalId);
-        
-        await driver.sleep(100);
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div")).click;
+        await driver.sleep(100)
+        await driver.findElement(By.css('[title="کینگ مانی"]')).click();
+        await driver.sleep(100)
 
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input")).sendKeys(Key.CONTROL + 'a');
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input")).sendKeys(Key.DELETE);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input")).sendKeys(nationalId);
-        await driver.sleep(100);
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div")).click;
+        await driver.sleep(100)
+        await driver.findElement(By.css('[title="کینگ مانی"]')).click();
+        await driver.sleep(100)
 
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div/div/div/div/label")).click();
-        await driver.sleep(1000);
+        // await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div/div/div/div/label")).click();
+        // await driver.sleep(1000);
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]")).sendKeys(Key.CONTROL + 'a');
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]")).sendKeys(Key.DELETE);
+        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]")).sendKeys(nationalId);
+        await driver.sleep(100);
         
         // await driver.findElement(By.css('[title="اداری"]')).click();
         // await driver.sleep(100)
@@ -113,5 +116,5 @@ async function editarz() {
     }
 }
 
-// editarz();
-module.exports = editarz;
+// editnerkharz();
+module.exports = editnerkharz;

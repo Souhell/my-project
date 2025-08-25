@@ -24,7 +24,7 @@ function generateNationalId() {
     return digits.join('') + controlDigit;
 }
 
-async function deletearz() {
+async function deletehesab() {
     const nationalId = generateNationalId();
     console.log("کد ملی تولیدشده:", nationalId);
 
@@ -90,5 +90,5 @@ async function deletearz() {
         await driver.quit();
     }
 }
-//deletearz();
-module.exports = deletearz;
+//deletehesab();
+module.exports = deletehesab;

@@ -39,6 +39,7 @@ async function phones() {
         await driver.sleep(1000);
         await driver.findElement(By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")).click();
         await driver.sleep(1000);
+
         await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[1]")), 5000).click();
         await driver.sleep(500);
 
@@ -83,5 +84,5 @@ async function phones() {
     }
 }
 
-//phones();
+phones();
 module.exports = phones;

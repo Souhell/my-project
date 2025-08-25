@@ -23,7 +23,7 @@ function generateNationalId() {
     return digits.join('') + controlDigit;
 }
 
-async function activearz() {
+async function activeproje() {
     const nationalId = generateNationalId();
     console.log("کد ملی تولیدشده:", nationalId);
 
@@ -85,5 +85,5 @@ async function activearz() {
         await driver.quit();
     }
 }
-// activearz();
-module.exports = activearz;
+// activeproje();
+module.exports = activeproje;

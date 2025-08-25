@@ -23,7 +23,7 @@ function generateNationalId() {
     return digits.join("") + controlDigit;
 }
 
-async function editarz() {
+async function editbank() {
     const nationalId = generateNationalId();
     console.log("کد ملی تولید شده:", nationalId);
 
@@ -64,7 +64,7 @@ async function editarz() {
         const steps = [
             "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
             "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]",
-            "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[5]",
+            "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[7]",
             "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/span[1]"
         ];
 
@@ -113,5 +113,5 @@ async function editarz() {
     }
 }
 
-// editarz();
-module.exports = editarz;
+// editbank();
+module.exports = editbank;

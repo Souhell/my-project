@@ -21,21 +21,21 @@ async function runScriptsSequentially() {
         const phones = require("./phones");
         await phones(driver);
 
-        console.log("--- Running arz.js ---");
-        const arz = require("./arz");
-        await arz(driver);
+        console.log("--- Running hesab.js ---");
+        const hesab = require("./hesab");
+        await hesab(driver);
 
-        console.log("--- Running editmarkaz.js ---");
-        const editarz = require("./editarz");
-        await editarz(driver);
+        console.log("--- Running edithesab.js ---");
+        const edithesab = require("./edithesab");
+        await edithesab(driver);
 
-        console.log("--- Running deletearz.js ---");
-        const deletearz = require("./deletearz");
-        await deletearz(driver);
+        console.log("--- Running deletehesab.js ---");
+        const deletehesab = require("./deletehesab");
+        await deletehesab(driver);
 
-        console.log("--- Running activearz.js ---");
-        const activearz = require("./activearz");
-        await activearz(driver);
+        console.log("--- Running activehesab.js ---");
+        const activehesab = require("./activehesab");
+        await activehesab(driver);
 
     } catch (err) {
         console.error("Error in scripts:", err);

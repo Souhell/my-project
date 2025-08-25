@@ -38,7 +38,7 @@ async function phones() {
         await driver.findElement(By.xpath(`${loginpath}/div[4]/div/div[2]/div/div/button`)).click();
         await driver.sleep(1000);
         await driver.findElement(By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")).click();
-        await driver.sleep(10000);
+        await driver.sleep(1000);
 
         await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[1]")), 5000).click();
         await driver.sleep(500);
@@ -46,25 +46,28 @@ async function phones() {
         await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
         await driver.sleep(500);
 
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[2]")), 5000).click();
-        await driver.sleep(500);
-
-        await driver.wait(until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and .//span[text()="کینگ مانی"]]`)), 5000).click();
-        await driver.sleep(500);
-
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[3]")), 5000).click();
-        await driver.sleep(500);
-
-        await driver.wait(until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and .//span[text()="1403"]]`)), 5000).click();
-        await driver.sleep(500);
-
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[4]")), 5000).click();
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[1]")), 5000).click();
         await driver.sleep(500);
 
         await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
         await driver.sleep(500);
 
-        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li/span/div/div[5]")), 5000).click();
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[2]")), 5000).click();
+        await driver.sleep(500);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();
+        await driver.sleep(500);
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[3]")), 5000).click();
+        await driver.sleep(500);
+        await driver.wait(until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and .//span[text()="کینگ مانی"]]`)), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[4]")), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and .//span[text()="1403"]]`)), 5000).click();
+        await driver.sleep(500);
+
+        await driver.wait(until.elementLocated(By.xpath("/html/body/div[4]/div/ul/li[5]")), 5000).click();
         await driver.sleep(500);
 
         await driver.wait(until.elementLocated(By.xpath("/html/body/div[3]/div/div[1]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/div[2]/button[1]")), 5000).click();

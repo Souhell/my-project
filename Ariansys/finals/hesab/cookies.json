@@ -1,0 +1,32 @@
+[
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1756126109,
+    "httpOnly": false,
+    "name": "_rAuth",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "11913B17133F249DFD05BEF58897CADB02665D87CA8282913D666A88D45515B3-1"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1756126109,
+    "httpOnly": false,
+    "name": "_auth",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjdCMDUwQUUyQTJGRjYzQzNBMjg4Mjc5MTA5NEUyMDIxIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwOi8vMjE2LjY1LjIwMC4yMTU6MzAwMDYiLCJuYmYiOjE3NTYxMDQ1MDksImlhdCI6MTc1NjEwNDUwOSwiZXhwIjoxNzU2MTA1MTA5LCJhdWQiOiJodHRwOi8vMjE2LjY1LjIwMC4yMTU6MzAwMDYvcmVzb3VyY2VzIiwic2NvcGUiOlsiRXJwU2NvcGUiLCJvcGVuaWQiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdLCJjbGllbnRfaWQiOiJCZmYiLCJzdWIiOiIwMTE4ZDY4Zi1kMzk1LTQ1MTMtODM4Mi0wNzljMTgzNzZmMTEiLCJhdXRoX3RpbWUiOjE3NTYxMDQ1MDksImlkcCI6ImxvY2FsIiwiYWNyIjoibm9yIiwiTWFEYXRhIjoiW3tcdTAwMjJNYW5hZ2VtZW50QWNjb3VudElkXHUwMDIyOjEsXHUwMDIyTWFuYWdlbWVudEFjY291bnREZXNjXHUwMDIyOlx1MDAyMlx1MDYyQVx1MDYzM1x1MDYyQSBcdTA2MzNcdTA2MzlcdTA2Q0NcdTA2MkZcdTAwMjIsXHUwMDIySW5BY3RpdmVcdTAwMjI6ZmFsc2V9XSIsImp0aSI6IjU2NzkyNDg3MDZBMEE3NTRCOTNEM0VGOTg3NzlFMkYzIn0.IuV1LR07It-ugWIeFECLkCgKt3ILK6g88dlUvLDhaRajGhiGxemgUVKOaCrFQDgtwILEBz04yLsgFQ9njaefYeUKTju_4E9h91Vk6f9bWo0fdcRX4ygpABmADecCVZCQumClscCxxAvEAHWQJ88wqcPdBjX5yCXBcsro1AYPQlSmk6x-s69IIg32Wcft54G0DO84aCma2zzpNfkaw1TYjVCm4nTkDxL4w7HGLyZ4ZaKGDgQ-SNC20i0w-kGaS6Z-H0LmHn96ZsBnLMypoh8PbLDwo6ajXkAezgKy0JIFVei1T5246uyViBe9NZoBX1z6reZBhLHtNwXmo55zJMMpQg"
+  },
+  {
+    "domain": "frontbuild.ariansystemdp.local",
+    "expiry": 1787640507,
+    "httpOnly": false,
+    "name": "NEXT_LOCALE",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fa"
+  }
+]
