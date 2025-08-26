@@ -1,4 +1,3 @@
-// salemali.js
 const { Builder, By, until } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
@@ -11,44 +10,22 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-function generateNationalId() {
-  let digits;
-  do {
-    digits = Array.from({ length: 9 }, () => Math.floor(Math.random() * 10));
-  } while (digits.every((d) => d === 0));
-
-  const check =
-    digits
-      .map((digit, index) => digit * (10 - index))
-      .reduce((sum, val) => sum + val, 0) % 11;
-
-  const controlDigit = check < 2 ? check : 11 - check;
-  return digits.join("") + controlDigit;
-}
-
 async function hesab() {
-  const nationalId = generateNationalId();
+  // تولید کد ملی با متد customerDriver
+  const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
 
-  // مسیر فایل persistRoot.json که قبلاً در اسکریپت login ساخته می‌شود
-  // (در صورت نیاز مسیر را نسبت به محل واقعی فایل اصلاح کن)
-  const persistPath = path.join(__dirname, "../hesab/persistRoot.json");
-
-  // تنظیمات مرورگر برای Allow Notification و ماکسیمایز
-  const options = new chrome.Options();
-  options.addArguments("--disable-infobars", "--start-maximized");
-  options.setUserPreferences({
-    "profile.default_content_setting_values.notifications": 1,
-  });
-
+  // ساخت درایور با اکتیو بودن نوتیفیکیشن و ری‌استور persist
   let dr = new customDriver();
   const url = "https://frontbuild.ariansystemdp.local/fa";
   let driver = await dr.createDriver(url, true);
-  await driver.sleep(100);
+
   try {
-    //login process
+    // لاگین با متد customerDriver
     await dr.login();
-    await driver.sleep(100);
+
+    // ادامه مراحل تست...
+    // مثال:
     await driver
       .findElement(
         By.xpath(
@@ -56,6 +33,7 @@ async function hesab() {
         )
       )
       .click();
+    // ... سایر مراحل ...
     await driver.sleep(100);
     await driver
       .findElement(
@@ -169,5 +147,5 @@ async function hesab() {
   }
 }
 
-hesab();
+// hesab();
 module.exports = hesab;

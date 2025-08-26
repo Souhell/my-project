@@ -20,9 +20,11 @@ async function phones() {
     "profile.default_content_setting_values.notifications": 1,
   });
 
+  const nationalId = customDriver.generateNationalId();
   let dr = new customDriver();
   const url = "https://frontbuild.ariansystemdp.local/fa";
   let driver = await dr.createDriver(url, true);
+  await dr.login();
   const selector = new selectorHelper(driver);
 
   try {

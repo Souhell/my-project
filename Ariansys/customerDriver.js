@@ -30,15 +30,7 @@ class customDriver {
     await this.driver.manage().setTimeouts({ implicit: 10000 });
     await this.driver.manage().window().maximize();
     // ⬅️ اگر persist:root وجود داشت برش گردون
-    if (fs.existsSync(this.storagePath)) {
-      const persisted = fs.readFileSync(this.storagePath, "utf-8");
-      await this.driver.executeScript(
-        `window.localStorage.setItem("persist:root", arguments[0]);`,
-        persisted
-      );
-      console.log(`${colors.green}📦 persist:root restored${colors.reset}`);
-      await this.driver.navigate().refresh();
-    }
+    
     return this.driver;
   }
 
@@ -58,9 +50,32 @@ class customDriver {
     }
   }
 
+  // تابع تولید کد ملی
+  static generateNationalId() {
+    let digits;
+    do {
+      digits = Array.from({ length: 9 }, () => Math.floor(Math.random() * 10));
+    } while (digits.every((d) => d === 0));
+    const check =
+      digits
+        .map((digit, index) => digit * (10 - index))
+        .reduce((sum, val) => sum + val, 0) % 11;
+    const controlDigit = check < 2 ? check : 11 - check;
+    return digits.join("") + controlDigit;
+  }
+
   //اجرای سناریو لاگین
   async login() {
     await this.driver.wait(until.elementLocated(By.css("body")), 10000);
+    if (fs.existsSync(this.storagePath)) {
+      const persisted = fs.readFileSync(this.storagePath, "utf-8");
+      await this.driver.executeScript(
+        `window.localStorage.setItem("persist:root", arguments[0]);`,
+        persisted
+      );
+      console.log(`${colors.green}📦 persist:root restored${colors.reset}`);
+      await this.driver.navigate().refresh();
+    }
     console.log("login with customer driver call");
     const loginpath = "/html/body/div[3]/main/div/div/div/div[2]/form";
     await this.driver
@@ -75,6 +90,7 @@ class customDriver {
       .findElement(By.xpath(`${loginpath}/div[4]/div/div[2]/div/div/button`))
       .click();
     await this.driver.sleep(1000);
+    
     await this.driver
       .findElement(
         By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")
