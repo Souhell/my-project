@@ -1,4 +1,4 @@
-const { Builder, until, By } = require("selenium-webdriver");
+const { Builder, until, By, Actions } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
@@ -13,7 +13,95 @@ class customDriver {
   constructor(storageFile = "persistRoot.json") {
     this.storagePath = path.join(__dirname, storageFile);
   }
+  // 🎯 تعریف متدهای Actions
+  getActions() {
+    if (!this.driver) throw new Error("❌ Driver is not initialized.");
+    this.actions = this.driver.actions({ async: true });
+    return this.actions;
+  }
 
+  // 🖱️ کلیک راست روی المنت
+  async contextClick(element, offset = null) {
+    const actions = this.getActions();
+    if (offset) {
+      await actions.contextClick(element, offset).perform();
+    } else {
+      await actions.contextClick(element).perform();
+    }
+    return this;
+  }
+
+  // 🖱️ دابل کلیک روی المنت
+  async doubleClick(element) {
+    const actions = this.getActions();
+    await actions.doubleClick(element).perform();
+    return this;
+  }
+
+  // 🖱️ کلیک چپ روی المنت
+  async click(element) {
+    const actions = this.getActions();
+    await actions.click(element).perform();
+    return this;
+  }
+
+  // ⌨️ ارسال کلیدها به المنت
+  async sendKeys(element, ...keys) {
+    const actions = this.getActions();
+    await actions
+      .click(element)
+      .sendKeys(...keys)
+      .perform();
+    return this;
+  }
+
+  // 🖱️ drag و drop
+  async dragAndDrop(source, target) {
+    const actions = this.getActions();
+    await actions.dragAndDrop(source, target).perform();
+    return this;
+  }
+
+  // 🖱️ حرکت موس به المنت
+  async moveToElement(element, xOffset = 0, yOffset = 0) {
+    const actions = this.getActions();
+    await actions.move({ origin: element, x: xOffset, y: yOffset }).perform();
+    return this;
+  }
+
+  // 🖱️ حرکت موس به مختصات خاص
+  async moveToCoordinates(x, y) {
+    const actions = this.getActions();
+    await actions.move({ x: x, y: y }).perform();
+    return this;
+  }
+
+  // ⌨️ فشار دادن کلید (مانند Ctrl، Shift، etc.)
+  async keyDown(key) {
+    const actions = this.getActions();
+    await actions.keyDown(key).perform();
+    return this;
+  }
+
+  // ⌨️ رها کردن کلید
+  async keyUp(key) {
+    const actions = this.getActions();
+    await actions.keyUp(key).perform();
+    return this;
+  }
+
+  // ⏸️ تأخیر (pause)
+  async pause(duration) {
+    const actions = this.getActions();
+    await actions.pause(duration).perform();
+    return this;
+  }
+
+  // 🧹 ریست اکشن‌ها
+  clearActions() {
+    this.actions = null;
+    return this;
+  }
   // 🚀 ساخت درایور با امکان ری‌استور persist:root
   async createDriver(url, withPersist) {
     const options = new chrome.Options();
@@ -30,7 +118,7 @@ class customDriver {
     await this.driver.manage().setTimeouts({ implicit: 10000 });
     await this.driver.manage().window().maximize();
     // ⬅️ اگر persist:root وجود داشت برش گردون
-    
+
     return this.driver;
   }
 
@@ -90,7 +178,7 @@ class customDriver {
       .findElement(By.xpath(`${loginpath}/div[4]/div/div[2]/div/div/button`))
       .click();
     await this.driver.sleep(1000);
-    
+
     await this.driver
       .findElement(
         By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")
@@ -109,3 +197,25 @@ class customDriver {
 }
 
 module.exports = customDriver;
+
+
+
+// // // مثال استفاده در کدهای دیگر
+// const customDriver = require('./customDriver');
+// const dr = new customDriver();
+
+// async function example() {
+//   await dr.createDriver('https://example.com', true);
+  
+//   const element = await dr.driver.findElement(By.id('my-element'));
+  
+//   // استفاده از متدهای مختلف Actions
+//   await dr.contextClick(element); // کلیک راست
+//   await dr.doubleClick(element); // دابل کلیک
+//   await dr.moveToElement(element, 10, 10); // حرکت موس
+//   await dr.sendKeys(element, 'Hello World'); // ارسال متن
+//   await dr.keyDown(Key.CONTROL); // فشار دادن Ctrl
+//   await dr.pause(1000); // تأخیر 1 ثانیه
+  
+//   await dr.quit();
+// }

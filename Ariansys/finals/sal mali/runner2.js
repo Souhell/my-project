@@ -16,10 +16,10 @@ async function runScriptsSequentially() {
             .setChromeOptions(options)
             .build();
 
-        // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
-        console.log("--- Running phones.js ---");
-        const phones = require("./phones");
-        await phones(driver);
+        // // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
+        // console.log("--- Running phones.js ---");
+        // const phones = require("./phones");
+        // await phones(driver);
 
         console.log("--- Running salemali.js ---");
         const salemali = require("./salemali");
@@ -29,13 +29,15 @@ async function runScriptsSequentially() {
         const editsal = require("./editsal");
         await editsal(driver);
 
+        console.log("--- Running activesal.js ---");
+        const activesal = require("./activesal");
+        await activesal(driver);
+
         console.log("--- Running deletesal.js ---");
         const deletesal = require("./deletesal");
         await deletesal(driver);
 
-        console.log("--- Running activesal.js ---");
-        const activesal = require("./activesal");
-        await activesal(driver);
+        
 
     } catch (err) {
         console.error("Error in scripts:", err);
