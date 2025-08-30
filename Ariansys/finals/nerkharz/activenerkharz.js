@@ -2,88 +2,59 @@ const { Builder, By, until } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
+const customDriver = require("../../customerDriver");
 
 const colors = {
-    red: "\x1b[31m",
-    green: "\x1b[32m",
-    reset: "\x1b[0m"
+  red: "\x1b[31m",
+  green: "\x1b[32m",
+  reset: "\x1b[0m",
 };
 
-function generateNationalId() {
-    let digits = [];
-    do {
-        digits = Array.from({ length: 9 }, () => Math.floor(Math.random() * 10));
-    } while (digits.every(d => d === 0));
-
-    const check = digits
-        .map((digit, index) => digit * (10 - index))
-        .reduce((sum, val) => sum + val, 0) % 11;
-
-    const controlDigit = check < 2 ? check : 11 - check;
-    return digits.join('') + controlDigit;
-}
-
 async function activenerkharz() {
-    const nationalId = generateNationalId();
-    console.log("کد ملی تولیدشده:", nationalId);
+  // تولید کد ملی با متد customerDriver
+  const nationalId = customDriver.generateNationalId();
+  console.log("کد ملی تولید شده:", nationalId);
 
-    const cookiesPath = path.join(__dirname, "cookies.json");
+  // ساخت درایور با اکتیو بودن نوتیفیکیشن و ری‌استور persist
+  let dr = new customDriver();
+  const url = "https://frontbuild.ariansystemdp.local/fa";
+  let driver = await dr.createDriver(url, true);
 
-    // 🚀 Chrome options with Allow Notifications
-    const options = new chrome.Options();
-    options.addArguments("--disable-infobars", "--start-maximized");
-    options.setUserPreferences({
-        "profile.default_content_setting_values.notifications": 1 // 1 = Allow
-    });
+  try {
+    // لاگین با متد customerDriver
+    await dr.login();
+    // اجرای گام‌ها (قابل تغییر/تکمیل بر اساس نیاز)
+    const steps = [
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[8]",
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[6]/div/span[3]",
+    //   "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div/div[2]/div/div/button[2]",
+     ];
 
-    const driver = await new Builder()
-        .forBrowser("chrome")
-        .setChromeOptions(options)
-        .build();
-
-    try {
-        await driver.get("https://frontbuild.ariansystemdp.local/fa");
-        await driver.manage().setTimeouts({ implicit: 5000 });
-
-        // 🍪 Load cookies if available
-        if (fs.existsSync(cookiesPath)) {
-            const cookies = JSON.parse(fs.readFileSync(cookiesPath, "utf8"));
-            for (const cookie of cookies) {
-                if (cookie.domain) delete cookie.domain;
-                await driver.manage().addCookie(cookie);
-            }
-            await driver.navigate().refresh();
-            console.log("✅ کوکی‌ها بارگذاری و صفحه رفرش شد.");
-        } else {
-            console.log("⚠️ کوکی یافت نشد. لطفاً ابتدا کوکی را ذخیره کنید.");
-        }
-
-        await driver.wait(until.elementLocated(By.css("body")), 500);
-        console.log("🏁 مرورگر آماده برای ادامه تست.");
-
-        // 🔹 کلیک‌ها
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]")).click();
+    for (const xpath of steps) {
+      try {
+        console.log("در حال انتظار برای:", xpath);
+        await driver.wait(until.elementLocated(By.xpath(xpath)), 10000);
+        await driver.findElement(By.xpath(xpath)).click();
         await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]")).click();
-        await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[5]")).click();
-        await driver.sleep(100);
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/span[3]")).click();
-        await driver.sleep(100);
-
-        // بررسی متن صفحه
-        const bodyText = await driver.findElement(By.css("body")).getText();
-        if (bodyText.includes("آرین")) {
-            console.log(`${colors.green}✅ ok Aryan ${colors.reset}`);
-        } else {
-            console.log(`${colors.red}❌ not ok Aryan ${colors.reset}`);
-        }
-
-    } catch (err) {
-        console.error("❌ خطا:", err);
-    } finally {
-        await driver.quit();
+      } catch (err) {
+        console.error("خطا در گام:", xpath, err);
+        throw err; // باعث می‌شود finally اجرا شود و مرورگر بسته شود
+      }
     }
+
+    const bodyText = await driver.findElement(By.css("body")).getText();
+    if (bodyText.includes("آرین")) {
+      console.log(`${colors.green}✅ ok Aryan ${colors.reset}`);
+    } else {
+      console.log(`${colors.red}❌ not ok Aryan ${colors.reset}`);
+    }
+  } catch (err) {
+    console.error("❌ خطا:", err);
+  } finally {
+    await driver.quit();
+  }
 }
-// activenerkharz();
+activenerkharz();
 module.exports = activenerkharz;

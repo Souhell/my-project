@@ -20,6 +20,24 @@ class customDriver {
     return this.actions;
   }
 
+  async selectAntOption(inputXpath, optionTitle) {
+    // کلیک روی فیلد Select
+    const input = await this.driver.findElement(By.xpath(inputXpath));
+    await input.click();
+
+    // صبر کن dropdown لود بشه
+    await this.driver.wait(
+      until.elementLocated(By.css(`.ant-select-item-option[title="${optionTitle}"]`)),
+      5000
+    );
+
+    // انتخاب گزینه
+    const option = await this.driver.findElement(
+      By.css(`.ant-select-item-option[title="${optionTitle}"]`)
+    );
+    await option.click();
+    await this.driver.sleep(500);
+  }
   // 🖱️ کلیک راست روی المنت
   async contextClick(element, offset = null) {
     const actions = this.getActions();

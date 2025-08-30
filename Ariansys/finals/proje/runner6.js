@@ -17,9 +17,9 @@ async function runScriptsSequentially() {
             .build();
 
         // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
-        console.log("--- Running phones.js ---");
-        const phones = require("./phones");
-        await phones(driver);
+        // console.log("--- Running phones.js ---");
+        // const phones = require("./phones");
+        // await phones(driver);
 
         console.log("--- Running proje.js ---");
         const proje = require("./proje");
