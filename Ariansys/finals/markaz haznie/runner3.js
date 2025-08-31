@@ -17,9 +17,9 @@ async function runScriptsSequentially() {
             .build();
 
         // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
-        console.log("--- Running phones.js ---");
-        const phones = require("./phones");
-        await phones(driver);
+        // console.log("--- Running phones.js ---");
+        // const phones = require("./phones");
+        // await phones(driver);
 
         console.log("--- Running markaz.js ---");
         const markaz = require("./markaz");
@@ -29,13 +29,15 @@ async function runScriptsSequentially() {
         const editmarkaz = require("./editmarkaz");
         await editmarkaz(driver);
 
+        console.log("--- Running activemarkaz.js ---");
+        const activemarkaz = require("./activemarkaz");
+        await activemarkaz(driver);
+
         console.log("--- Running deletemarkaz.js ---");
         const deletemarkaz = require("./deletemarkaz");
         await deletemarkaz(driver);
 
-        console.log("--- Running activemarkaz.js ---");
-        const activemarkaz = require("./activemarkaz");
-        await activemarkaz(driver);
+        
 
     } catch (err) {
         console.error("Error in scripts:", err);
