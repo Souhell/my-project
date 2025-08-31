@@ -16,26 +16,28 @@ async function runScriptsSequentially() {
             .setChromeOptions(options)
             .build();
 
-        // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
-        console.log("--- Running phones.js ---");
-        const phones = require("./phones");
-        await phones(driver);
+        // // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
+        // console.log("--- Running phones.js ---");
+        // const phones = require("./phones");
+        // await phones(driver);
 
         console.log("--- Running nerkharz.js ---");
-        const nerkharz = require("./nerkhnerkharz");
+        const nerkharz = require("./nerkharz");
         await nerkharz(driver);
 
-        console.log("--- Running editmarkaz.js ---");
-        const editnerkharz = require("./editnerkhnerkharz");
+        console.log("--- Running editnerkharz.js ---");
+        const editnerkharz = require("./editnerkharz");
         await editnerkharz(driver);
 
+        console.log("--- Running activenerkharz.js ---");
+        const activenerkharz = require("./activenerkharz");
+        await activenerkharz(driver);
+
         console.log("--- Running deletenerkharz.js ---");
-        const deletenerkharz = require("./deletenerkhnerkharz");
+        const deletenerkharz = require("./deletenerkharz");
         await deletenerkharz(driver);
 
-        console.log("--- Running activenerkharz.js ---");
-        const activenerkharz = require("./activenerkhnerkharz");
-        await activenerkharz(driver);
+        
 
     } catch (err) {
         console.error("Error in scripts:", err);

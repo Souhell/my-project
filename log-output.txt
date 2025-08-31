@@ -2197,3 +2197,15 @@ from unknown error: web view not found
     at async convertKeys (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:194:3)
     at async Driver.execute (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:743:22)
 [ERROR]: [31mError occurred:[0m
+[ERROR]: [ERROR] 2025-08-30T12:44:32.019Z: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.155)
+    at Object.throwDecodedError (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\m.baharlou\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\lib\webdriver.js:745:17)
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mLogin successful![0m
+[ERROR]: [31mError occurred:[0m

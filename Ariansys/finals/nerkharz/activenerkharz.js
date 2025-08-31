@@ -56,5 +56,5 @@ async function activenerkharz() {
     await driver.quit();
   }
 }
-activenerkharz();
+// activenerkharz();
 module.exports = activenerkharz;

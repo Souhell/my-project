@@ -1,4 +1,4 @@
-const { Builder, By, until,Key, Actions } = require("selenium-webdriver");
+const { Builder, By, until, Key, Actions } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
@@ -36,47 +36,74 @@ async function editnerkharz() {
       await driver.findElement(By.xpath(xpath)).click();
       await driver.sleep(100);
     }
+    // کلیک روی دراپ‌دان اول و انتخاب گزینه
+    // --- برای select اول ---
+    const firstSelect = await driver.findElement(
+      By.xpath(
+        "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div"
+      )
+    );
+    await firstSelect.click();
+    await driver.sleep(500);
 
-    // await driver.sleep(100);
-    // await driver
-    //   .findElement(
-    //     By.xpath(
-    //       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button"
-    //     )
-    //   )
-    //   .click();
-    // await driver.sleep(100);
+    // فقط dropdown باز شده رو بگیر
+    const dropdowns1 = await driver.findElements(
+      By.css('.ant-select-dropdown:not([aria-hidden="true"])')
+    );
+    const options1 = await dropdowns1[dropdowns1.length - 1].findElements(
+      By.css(".ant-select-item-option")
+    );
 
-    // await driver.sleep(100);
-    
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div")).click;
-                await driver.sleep(1000)
-                await driver.findElement(By.css('[title="8249000528"]')).click();
-                await driver.sleep(1000)
-        
-                await dr.selectAntOption('/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div','ffdfsfdsdfsd').click();
-        
-                // await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div/div/div/div/label")).click();
-                // await driver.sleep(1000);
-                await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]")).sendKeys(nationalId);
-                await driver.sleep(1000);
-        
-        // await driver.findElement(By.css('[title="سایر"]')).click();
-        // await driver.sleep(100)
-        // await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]/div/div/button")).click();
-        // await driver.sleep(100);
-        // await driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/div/div[2]/div/div[2]/div[6]/button")).click();
-        await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div")).click();
+    // آیتم اول رو کلیک کن
+    await options1[0].click();
+    await driver.sleep(1000);
+
+    // --- برای select دوم ---
+    const secondSelect = await driver.findElement(
+      By.xpath(
+        "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div"
+      )
+    );
+    await secondSelect.click();
+    await driver.sleep(500);
+
+    // دوباره فقط dropdown باز شده رو بگیر
+    const dropdowns2 = await driver.findElements(
+      By.css('.ant-select-dropdown:not([aria-hidden="true"])')
+    );
+    const options2 = await dropdowns2[dropdowns2.length - 1].findElements(
+      By.css(".ant-select-item-option")
+    );
+
+    // آیتم دوم رو کلیک کن
+    await options2[1].click();
+    await driver.sleep(1000);
+    await driver
+          .findElement(
+            By.xpath(
+              "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]/div[1]/div/div/div/input"
+            )
+          )
+          .sendKeys(Key.CONTROL + "a");
         await driver.sleep(100);
-
-    // await driver.findElement(By.css('[title="اداری"]')).click();
-    // await driver.sleep(100)
-
-    // await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]/div/div/button")).click();
-    // await driver.sleep(100);
-
-    // await driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/div/div[2]/div/div[2]/div[6]/button")).click();
-    // await driver.sleep(100);
+    
+        await driver
+          .findElement(
+            By.xpath(
+              "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]/div[1]/div/div/div/input"
+            )
+          )
+          .sendKeys(Key.DELETE);
+        await driver.sleep(100);
+    
+        await driver
+          .findElement(
+            By.xpath(
+              "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]/div[1]/div/div/div/input"
+            )
+          )
+          .sendKeys(nationalId);
+        await driver.sleep(100);
 
     await driver
       .findElement(
@@ -100,5 +127,5 @@ async function editnerkharz() {
   }
 }
 
-editnerkharz();
+// editnerkharz();
 module.exports = editnerkharz;

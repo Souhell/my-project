@@ -56,5 +56,5 @@ async function deletenerkharz() {
     await driver.quit();
   }
 }
-deletenerkharz();
+// deletenerkharz();
 module.exports = deletenerkharz;
