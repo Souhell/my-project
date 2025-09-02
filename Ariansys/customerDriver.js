@@ -1,4 +1,4 @@
-const { Builder, until, By, Actions } = require("selenium-webdriver");
+const { Builder, until, By, Key } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
@@ -13,32 +13,138 @@ class customDriver {
   constructor(storageFile = "persistRoot.json") {
     this.storagePath = path.join(__dirname, storageFile);
   }
-  // 🎯 تعریف متدهای Actions
+
+  // ========================
+  // 🎯 Driver & Actions
+  // ========================
   getActions() {
     if (!this.driver) throw new Error("❌ Driver is not initialized.");
     this.actions = this.driver.actions({ async: true });
     return this.actions;
   }
 
+  async createDriver(url, withPersist, headless = false) {
+    const options = new chrome.Options();
+    if (headless) {
+      options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+    }
+    options.setUserPreferences({
+      "profile.default_content_setting_values.notifications": 1,
+    });
+
+    this.driver = await new Builder().forBrowser("chrome").setChromeOptions(options).build();
+
+    if (url && withPersist === true) {
+      await this.driver.get(url);
+    }
+    await this.driver.manage().setTimeouts({ implicit: 10000 });
+    await this.driver.manage().window().maximize();
+
+    return this.driver;
+  }
+
+  async quit() {
+    if (this.driver) {
+      await this.driver.quit();
+      this.driver = null;
+    }
+  }
+
+  // ========================
+  // 🎯 Persist Storage
+  // ========================
+  async savePersist() {
+    if (!this.driver) throw new Error("❌ Driver is not initialized.");
+    const persisted = await this.driver.executeScript(
+      `return window.localStorage.getItem("persist:root");`
+    );
+    if (persisted) {
+      fs.writeFileSync(this.storagePath, persisted, "utf-8");
+      console.log(`${colors.green}✅ persist:root saved${colors.reset}`);
+    } else {
+      console.log(`${colors.red}⚠️ No persist:root found${colors.reset}`);
+    }
+  }
+
+  async restorePersist() {
+    if (fs.existsSync(this.storagePath)) {
+      const persisted = fs.readFileSync(this.storagePath, "utf-8");
+      await this.driver.executeScript(
+        `window.localStorage.setItem("persist:root", arguments[0]);`,
+        persisted
+      );
+      console.log(`${colors.green}📦 persist:root restored${colors.reset}`);
+      await this.driver.navigate().refresh();
+    }
+  }
+
+  // ========================
+  // 🎯 Helpers for Elements
+  // ========================
+  async SelectByTitle(title) {
+    const btn = await this.driver.wait(
+      until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and span[text()="${title}"]]`)),
+      5000
+    );
+    await btn.click();
+  }
+
+  async SelectByContainsTitle(title) {
+    const btn = await this.driver.wait(
+      until.elementLocated(By.xpath(`//*[contains(@title, "${title}")]`)),
+      5000
+    );
+    await btn.click();
+  }
+
+  async ClickByText(tag, text) {
+    const el = await this.driver.wait(
+      until.elementLocated(By.xpath(`//${tag}[contains(text(),"${text}")]`)),
+      5000
+    );
+    await el.click();
+  }
+
+  async ClickFirstByClass(className) {
+    const els = await this.driver.wait(
+      until.elementsLocated(By.css(`.${className}`)),
+      5000
+    );
+    if (els.length > 0) await els[0].click();
+  }
+
+  async ClickByClassAndIndex(className, idx) {
+    const els = await this.driver.wait(
+      until.elementsLocated(By.css(`.${className}`)),
+      5000
+    );
+    if (els.length > idx) await els[idx].click();
+  }
+
+  async WaitForTitle(title) {
+    await this.driver.wait(
+      until.elementLocated(By.xpath(`//*[contains(@title, "${title}")]`)),
+      5000
+    );
+  }
+
   async selectAntOption(inputXpath, optionTitle) {
-    // کلیک روی فیلد Select
     const input = await this.driver.findElement(By.xpath(inputXpath));
     await input.click();
-
-    // صبر کن dropdown لود بشه
     await this.driver.wait(
       until.elementLocated(By.css(`.ant-select-item-option[title="${optionTitle}"]`)),
       5000
     );
-
-    // انتخاب گزینه
     const option = await this.driver.findElement(
       By.css(`.ant-select-item-option[title="${optionTitle}"]`)
     );
     await option.click();
     await this.driver.sleep(500);
   }
-  // 🖱️ کلیک راست روی المنت
+
+  // ========================
+  // 🎯 Actions Helpers
+  // ========================
   async contextClick(element, offset = null) {
     const actions = this.getActions();
     if (offset) {
@@ -49,130 +155,115 @@ class customDriver {
     return this;
   }
 
-  // 🖱️ دابل کلیک روی المنت
   async doubleClick(element) {
     const actions = this.getActions();
     await actions.doubleClick(element).perform();
     return this;
   }
 
-  // 🖱️ کلیک چپ روی المنت
   async click(element) {
     const actions = this.getActions();
     await actions.click(element).perform();
     return this;
   }
 
-  // ⌨️ ارسال کلیدها به المنت
   async sendKeys(element, ...keys) {
     const actions = this.getActions();
-    await actions
-      .click(element)
-      .sendKeys(...keys)
-      .perform();
+    await actions.click(element).sendKeys(...keys).perform();
     return this;
   }
 
-  // 🖱️ drag و drop
   async dragAndDrop(source, target) {
     const actions = this.getActions();
     await actions.dragAndDrop(source, target).perform();
     return this;
   }
 
-  // 🖱️ حرکت موس به المنت
   async moveToElement(element, xOffset = 0, yOffset = 0) {
     const actions = this.getActions();
     await actions.move({ origin: element, x: xOffset, y: yOffset }).perform();
     return this;
   }
 
-  // 🖱️ حرکت موس به مختصات خاص
   async moveToCoordinates(x, y) {
     const actions = this.getActions();
-    await actions.move({ x: x, y: y }).perform();
+    await actions.move({ x, y }).perform();
     return this;
   }
 
-  // ⌨️ فشار دادن کلید (مانند Ctrl، Shift، etc.)
   async keyDown(key) {
     const actions = this.getActions();
     await actions.keyDown(key).perform();
     return this;
   }
 
-  // ⌨️ رها کردن کلید
   async keyUp(key) {
     const actions = this.getActions();
     await actions.keyUp(key).perform();
     return this;
   }
 
-  // ⏸️ تأخیر (pause)
   async pause(duration) {
     const actions = this.getActions();
     await actions.pause(duration).perform();
     return this;
   }
 
-  // 🧹 ریست اکشن‌ها
   clearActions() {
     this.actions = null;
     return this;
   }
-  // 🚀 ساخت درایور با امکان ری‌استور persist:root
-  async createDriver(url, withPersist) {
-    const options = new chrome.Options();
-    options.setUserPreferences({
-      "profile.default_content_setting_values.notifications": 1,
-    });
-    this.driver = await new Builder()
-      .forBrowser("chrome")
-      .setChromeOptions(options)
-      .build();
-    if (url && withPersist == true) {
-      await this.driver.get(url);
-    }
-    await this.driver.manage().setTimeouts({ implicit: 10000 });
-    await this.driver.manage().window().maximize();
-    // ⬅️ اگر persist:root وجود داشت برش گردون
 
-    return this.driver;
-  }
-
-  // 💾 ذخیره persist:root از مرورگر
-  async savePersist() {
-    if (!this.driver) throw new Error("❌ Driver is not initialized.");
-    const persisted = await this.driver.executeScript(
-      `return window.localStorage.getItem("persist:root");`
-    );
-    if (persisted) {
-      fs.writeFileSync(this.storagePath, persisted, "utf-8");
-      console.log(`${colors.green}✅ persist:root saved${colors.reset}`);
-    } else {
-      console.log(
-        `${colors.red}⚠️ No persist:root found in localStorage${colors.reset}`
-      );
-    }
-  }
-
-  // تابع تولید کد ملی
+  // ========================
+  // 🎯 Static Utils
+  // ========================
   static generateNationalId() {
     let digits;
     do {
       digits = Array.from({ length: 9 }, () => Math.floor(Math.random() * 10));
     } while (digits.every((d) => d === 0));
+
     const check =
       digits
         .map((digit, index) => digit * (10 - index))
         .reduce((sum, val) => sum + val, 0) % 11;
     const controlDigit = check < 2 ? check : 11 - check;
+
     return digits.join("") + controlDigit;
   }
 
-  //اجرای سناریو لاگین
-  async login() {
+  static generateIranianMobile() {
+    const prefixes = [
+      "0910","0911","0912","0913","0914","0915","0916","0917","0918","0919",
+      "0920","0921","0922","0923","0930","0933","0935","0936","0937","0938","0939",
+      "0990","0991","0992","0993","0994"
+    ];
+    const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+    const rest = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join("");
+    return prefix + rest;
+  }
+
+  static generateBankCard() {
+    let card = Array.from({ length: 15 }, () => Math.floor(Math.random() * 10));
+    let sum = 0;
+    for (let i = 0; i < 15; i++) {
+      let digit = card[14 - i];
+      if (i % 2 === 0) {
+        digit *= 2;
+        if (digit > 9) digit -= 9;
+      }
+      sum += digit;
+    }
+    const checkDigit = (10 - (sum % 10)) % 10;
+    return card.join("") + checkDigit;
+  }
+
+  // ========================
+  // 🎯 Login Scenario
+  // ========================
+  async login(username = "12", password = "12") {
     await this.driver.wait(until.elementLocated(By.css("body")), 10000);
+
     if (fs.existsSync(this.storagePath)) {
       const persisted = fs.readFileSync(this.storagePath, "utf-8");
       await this.driver.executeScript(
@@ -182,58 +273,51 @@ class customDriver {
       console.log(`${colors.green}📦 persist:root restored${colors.reset}`);
       await this.driver.navigate().refresh();
     }
-    console.log("login with customer driver call");
+
+    console.log("🔑 login with customDriver");
+
     const loginpath = "/html/body/div[3]/main/div/div/div/div[2]/form";
-    await this.driver
-      .findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`))
-      .sendKeys("12");
-    await this.driver
-      .findElement(
-        By.xpath(`${loginpath}/div[2]/div/div[2]/div/div/span/input`)
-      )
-      .sendKeys("12");
-    await this.driver
-      .findElement(By.xpath(`${loginpath}/div[4]/div/div[2]/div/div/button`))
-      .click();
+    await this.driver.findElement(By.xpath(`${loginpath}/div[1]//input`)).sendKeys(username);
+    await this.driver.findElement(By.xpath(`${loginpath}/div[2]//input`)).sendKeys(password);
+    await this.driver.findElement(By.xpath(`${loginpath}/div[4]//button`)).click();
+
     await this.driver.sleep(1000);
 
-    await this.driver
-      .findElement(
-        By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")
-      )
-      .click();
-    await this.driver.sleep(1000);
-  }
+    const closeBtn = await this.driver.findElement(
+      By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")
+    );
+    await closeBtn.click();
 
-  // 🔴 بستن درایور
-  async quit() {
-    if (this.driver) {
-      await this.driver.quit();
-      this.driver = null;
-    }
+    await this.driver.sleep(1000);
   }
 }
 
 module.exports = customDriver;
 
+// 🎯 تست نمونه
+// console.log("کد ملی:", customDriver.generateNationalId());
+// console.log("موبایل:", customDriver.generateIranianMobile());
+// console.log("کارت بانکی:", customDriver.generateBankCard());
 
 
-// // // مثال استفاده در کدهای دیگر
-// const customDriver = require('./customDriver');
-// const dr = new customDriver();
+// 🎯 تست نمونه
+// console.log("کد ملی:", customDriver.generateNationalId());
+// console.log("موبایل:", customDriver.generateIranianMobile());
 
-// async function example() {
-//   await dr.createDriver('https://example.com', true);
-  
-//   const element = await dr.driver.findElement(By.id('my-element'));
-  
-//   // استفاده از متدهای مختلف Actions
-//   await dr.contextClick(element); // کلیک راست
-//   await dr.doubleClick(element); // دابل کلیک
-//   await dr.moveToElement(element, 10, 10); // حرکت موس
-//   await dr.sendKeys(element, 'Hello World'); // ارسال متن
-//   await dr.keyDown(Key.CONTROL); // فشار دادن Ctrl
-//   await dr.pause(1000); // تأخیر 1 ثانیه
-  
+
+// const customDriver = require("./customDriver");
+
+// (async () => {
+//   const dr = new customDriver();
+//   await dr.createDriver("https://example.com", true, true); // headless=true
+
+//   // استفاده از helperها
+//   await dr.SelectByTitle("ثبت");
+//   await dr.ClickByText("span", "ورود");
+//   await dr.selectAntOption('//input[@id="MainCurrencyId"]', "8249000528");
+
 //   await dr.quit();
-// }
+// })();
+
+
+

@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function activebank() {
+async function deletebank() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -28,16 +28,16 @@ async function activebank() {
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]",
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[7]",
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[3]",
-    //   "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div/div[2]/div/div/button[2]",
-     ];
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[2]",
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div/div[2]/div/div/button[2]",
+    ];
 
     for (const xpath of steps) {
       try {
         console.log("در حال انتظار برای:", xpath);
         await driver.wait(until.elementLocated(By.xpath(xpath)), 10000);
         await driver.findElement(By.xpath(xpath)).click();
-        await driver.sleep(1000);
+        await driver.sleep(100);
       } catch (err) {
         console.error("خطا در گام:", xpath, err);
         throw err; // باعث می‌شود finally اجرا شود و مرورگر بسته شود
@@ -56,6 +56,5 @@ async function activebank() {
     await driver.quit();
   }
 }
-// activebank();
-module.exports = activebank;
-	
+// deletebank();
+module.exports = deletebank;
