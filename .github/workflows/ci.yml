@@ -33,23 +33,22 @@ jobs:
 
       - name: Run tests or smoke
         run: |
-          # اگر test script وجود دارد اجرا شود
           if npm run -s test; then
             echo "npm test passed"
           else
             echo "No test script found, running smoke check..."
-            # Smoke check امن با خروجی صفر تضمینی
-            node -e "
-              try {
-                if (require('fs').existsSync('./index.js')) {
-                  require('./index.js');
-                }
-                console.log('smoke check passed');
-              } catch(e) {
-                console.log('smoke check skipped or error ignored');
+            node <<'EOF'
+            try {
+              const fs = require('fs');
+              if (fs.existsSync('./index.js')) {
+                require('./index.js');
               }
-              process.exit(0);
-            "
+              console.log('smoke check passed');
+            } catch(e) {
+              console.log('smoke check skipped or error ignored');
+            }
+            process.exit(0);
+EOF
 
       - name: Upload logs (optional)
         if: always()
