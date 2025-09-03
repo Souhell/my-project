@@ -1,62 +1,54 @@
-const { Builder } = require("selenium-webdriver");
+const { Builder, By, until } = require("selenium-webdriver");
 
 async function runScriptsSequentially() {
-
+    let driver;
     try {
-        console.log("--- Running phones.js ---");
-        const phones = require("./phones");
-        await phones();
+        // مرورگر با تنظیمات نوتیفیکیشن Allow
+        const chrome = require("selenium-webdriver/chrome");
+        const options = new chrome.Options();
+        options.addArguments("--disable-popup-blocking");
+        options.setUserPreferences({
+            "profile.default_content_setting_values.notifications": 1
+        });
 
-        await wait(3000); // فاصله ۲ ثانیه
+        driver = await new Builder()
+            .forBrowser("chrome")
+            .setChromeOptions(options)
+            .build();
 
-        console.log("--- Running mewhaqiqi.js ---");
-        const mewhaqiqi = require("./mewhaqiqi");
-        await mewhaqiqi();
+        
 
-        await wait(10000);
+        console.log("--- Running haqiqi.js ---");
+        const haqiqi = require("./haqiqi");
+        await haqiqi(driver);
 
-        console.log("--- Running mewhoquqi.js ---");
-        const mewhoquqi = require("./mewhoquqi");
-        await mewhoquqi();
+        console.log("--- Running hoquqi.js ---");
+        const hoquqi = require("./hoquqi");
+        await hoquqi(driver);
 
-        await wait(10000);
+        console.log("--- Running ashkhas.js ---");
+        const ashkhas = require("./ashkhas");
+        await ashkhas(driver);
 
-        console.log("--- Running mewpeople.js ---");
-        const mewpeople = require("./mewpeople");
-        await mewpeople();
+        console.log("--- Running tamas.js ---");
+        const tamas = require("./tamas");
+        await tamas(driver);
 
-        await wait(10000);
+        console.log("--- Running editashkhas.js ---");
+        const editashkhas = require("./editashkhas");
+        await editashkhas(driver);
 
-        console.log("--- Running mewcontact.js ---");
-        const mewcontact = require("./mewcontact");
-        await mewcontact();
+        console.log("--- Running deleteashkhas.js ---");
+        const deleteashkhas = require("./deleteashkhas");
+        await deleteashkhas(driver);
 
-        await wait(10000);
-
-        console.log("--- Running mewedit.js ---");
-        const mewedit = require("./mewedit");
-        await mewedit();
-
-        await wait(12000);
-
-        console.log("--- Running mewdelete.js ---");
-        const mewdelete = require("./mewdelete");
-        await mewdelete();
-
-        await wait(10000);
-
-      
+        
 
     } catch (err) {
         console.error("Error in scripts:", err);
     } finally {
         console.log("Closing browser...");
-        await driver.quit();
+        if (driver) await driver.quit();
     }
 }
-
-function wait(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 runScriptsSequentially();
