@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function editbank() {
+async function maliat() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -26,65 +26,44 @@ async function editbank() {
 
     // اجرای گام‌ها
     const steps = [
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[1]/ul/li[7]",
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[1]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[2]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[2]/ul/li[1]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[2]/ul/li[1]/ul/li[5]",
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
     ];
 
     for (const xpath of steps) {
       await driver.findElement(By.xpath(xpath)).click();
       await driver.sleep(100);
     }
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
+        )
+      )
+      .sendKeys(nationalId);
+    await driver.sleep(100);
+    // انتخاب گزینه اول
+    //     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input")).click();
+    //     await driver.sleep(100);
+    //     const options = await driver.findElements(By.css('.ant-select-item-option'));
+    //     if (options.length > 1) {
+    //         await driver.executeScript("arguments[0].scrollIntoView(true);", options[1]);
+    //         await options[1].click();
+    //     }
+    // await driver.sleep(100);
+
     
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div/input"
         )
       )
-      .sendKeys(Key.CONTROL + "a");
+      .sendKeys(10);
     await driver.sleep(100);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
-        )
-      )
-      .sendKeys(Key.DELETE);
-    await driver.sleep(100);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
-        )
-      )
-      .sendKeys(nationalId);
-    await driver.sleep(100);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input"
-        )
-      )
-      .sendKeys(Key.CONTROL + "a");
-    await driver.sleep(100);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input"
-        )
-      )
-      .sendKeys(Key.DELETE);
-    await driver.sleep(100);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/input"
-        )
-      )
-      .sendKeys(nationalId);
-    await driver.sleep(100);
+
     await driver
       .findElement(
         By.xpath(
@@ -107,5 +86,5 @@ async function editbank() {
   }
 }
 
-// editbank();
-module.exports = editbank;
+// maliat();
+module.exports = maliat;

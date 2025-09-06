@@ -16,27 +16,30 @@ async function runScriptsSequentially() {
             .setChromeOptions(options)
             .build();
 
-        // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
+        // // اجرای اسکریپت‌ها به ترتیب و با driver مشترک
         // console.log("--- Running phones.js ---");
         // const phones = require("./phones");
         // await phones(driver);
 
-        console.log("--- Running bank.js ---");
-        const bank = require("./bank");
-        await bank(driver);
+        console.log("--- Running forushhamkar.js ---");
+        const forushhamkar = require("./forushhamkar");
+        await forushhamkar(driver);
 
-        console.log("--- Running editmarkaz.js ---");
-        const editbank = require("./editbank");
-        await editbank(driver);
+        console.log("--- Running forushteam.js ---");
+        const forushteam = require("./forushteam");
+        await forushteam(driver);
 
-        console.log("--- Running activebank.js ---");
-        const activebank = require("./activebank");
-        await activebank(driver);
+        // console.log("--- Running activesal.js ---");
+        // const activesal = require("./activesal");
+        // await activesal(driver);
 
-        console.log("--- Running deletebank.js ---");
-        const deletebank = require("./deletebank");
-        await deletebank(driver);
+        console.log("--- Running maliat.js ---");
+        const maliat = require("./maliat");
+        await maliat(driver);
 
+        console.log("--- Running marketteam.js ---");
+        const marketteam = require("./marketteam");
+        await marketteam(driver);
         
 
     } catch (err) {

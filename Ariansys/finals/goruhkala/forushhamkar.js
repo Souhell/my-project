@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function hamkar() {
+async function forushhamkar() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -86,5 +86,5 @@ async function hamkar() {
   }
 }
 
-hamkar();
-module.exports = hamkar;
+// forushhamkar();
+module.exports = forushhamkar;
