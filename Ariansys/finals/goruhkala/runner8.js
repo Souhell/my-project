@@ -21,6 +21,10 @@ async function runScriptsSequentially() {
         // const phones = require("./phones");
         // await phones(driver);
 
+        console.log("--- Running goruhkala.js ---");
+        const goruhkala = require("./goruhkala");
+        await goruhkala(driver);
+
         console.log("--- Running forushhamkar.js ---");
         const forushhamkar = require("./forushhamkar");
         await forushhamkar(driver);
@@ -29,10 +33,6 @@ async function runScriptsSequentially() {
         const forushteam = require("./forushteam");
         await forushteam(driver);
 
-        // console.log("--- Running activesal.js ---");
-        // const activesal = require("./activesal");
-        // await activesal(driver);
-
         console.log("--- Running maliat.js ---");
         const maliat = require("./maliat");
         await maliat(driver);
@@ -40,7 +40,10 @@ async function runScriptsSequentially() {
         console.log("--- Running marketteam.js ---");
         const marketteam = require("./marketteam");
         await marketteam(driver);
-        
+
+        console.log("--- Running tanzimat.js ---");
+        const tanzimat = require("./tanzimat");
+        await tanzimat(driver);
 
     } catch (err) {
         console.error("Error in scripts:", err);
