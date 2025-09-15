@@ -34,15 +34,15 @@ async function tanzimat() {
 
     for (const xpath of steps) {
       await driver.findElement(By.xpath(xpath)).click();
-      await driver.sleep(100);
+      await driver.sleep(1000);
     }
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/span/input"
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/span/input"
         )
       )
-      .sendKeys("11227");
+      .sendKeys("تجهیزات شکار");
     await driver.sleep(100);
 
     await driver
@@ -88,8 +88,8 @@ async function tanzimat() {
     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[1]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input")).click();
     await driver.sleep(100);
     const options = await driver.findElements(By.css('.ant-select-item-option'));
-    if (options.length > 1) {
-      await driver.executeScript("arguments[0].scrollIntoView(true);", options[1]);
+    if (options.length > 0) {
+      await driver.executeScript("arguments[0].scrollIntoView(true);", options[0]);
       await options[0].click();
     }
     await driver.sleep(100);
@@ -166,8 +166,8 @@ async function tanzimat() {
     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[1]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input")).click();
     await driver.sleep(100);
     const options2 = await driver.findElements(By.css('.ant-select-item-option'));
-    if (options2.length > 1) {
-      await driver.executeScript("arguments[0].scrollIntoView(true);", options2[1]);
+    if (options2.length > 0) {
+      await driver.executeScript("arguments[0].scrollIntoView(true);", options2[0]);
       await options2[0].click();
     }
     await driver.sleep(100);
@@ -225,8 +225,8 @@ async function tanzimat() {
     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[4]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input")).click();
     await driver.sleep(100);
     const options3 = await driver.findElements(By.css('.ant-select-item-option'));
-    if (options3.length > 1) {
-      await driver.executeScript("arguments[0].scrollIntoView(true);", options3[1]);
+    if (options3.length > 0) {
+      await driver.executeScript("arguments[0].scrollIntoView(true);", options3[0]);
       await options3[0].click();
     }
     await driver.sleep(100);

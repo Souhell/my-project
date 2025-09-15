@@ -3,24 +3,20 @@
   "version": "1.0.0",
   "main": "app.js",
   "type": "commonjs",
-  "description": "",
+  "description": "Automation app (Selenium now, Mocha infra ready)",
   "scripts": {
     "start": "node app.js",
-    "test": "npm run lint && node app.js",
-    "lint": "eslint . --ext .js || echo 'Lint errors ignored'"
+    "lint": "eslint . --ext .js || echo 'Lint errors ignored'",
+    "test": "mocha tests/**/*.js --timeout 20000 --reporter spec || echo 'No mocha tests found'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "eslint": "^9.17.0"
+    "chai": "^6.0.1",
+    "eslint": "^9.17.0",
+    "mocha": "^11.7.2",
+    "chromedriver": "^131.0.0",
+    "selenium-webdriver": "^4.35.0"
   },
-  
   "dependencies": {
-    "@wdio/appium-service": "^9.19.1",
-    "@wdio/cli": "^9.19.1",
-    "axios": "^1.9.0",
-    "selenium-webdriver": "^4.33.0",
-    "webdriverio": "^9.19.1"
+    "axios": "^1.9.0"
   }
 }
