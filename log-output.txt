@@ -2209,3 +2209,18 @@ from unknown error: web view not found
 [ERROR]: [31mError occurred:[0m
 [LOG]: [32mLogin successful![0m
 [ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[ERROR]: [31mError occurred:[0m
+[LOG]: [32mok sam tel[0m
+[LOG]: 5456693
+[LOG]: Generated Number:
+[ERROR]: [ERROR] 2025-09-15T07:21:42.294Z: Error: ECONNREFUSED connect ECONNREFUSED 127.0.0.1:6056
+    at ClientRequest.<anonymous> (C:\Users\m.baharlou.ARIANSYSTEMDP\Downloads\NodeConsoleApp2\node_modules\selenium-webdriver\http\index.js:293:15)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at Socket.socketErrorListener (node:_http_client:518:5)
+    at Socket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[LOG]: [32mLogin successful![0m

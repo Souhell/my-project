@@ -1,22 +1,23 @@
 {
   "name": "nodeconsoleapp2",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "./src/runner8.js",
   "type": "commonjs",
   "description": "Automation app (Selenium now, Mocha infra ready)",
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./src/runner8.js",
     "lint": "eslint . --ext .js || echo 'Lint errors ignored'",
     "test": "mocha tests/**/*.js --timeout 20000 --reporter spec || echo 'No mocha tests found'"
   },
   "devDependencies": {
     "chai": "^6.0.1",
+    "chromedriver": "^131.0.0",
     "eslint": "^9.17.0",
     "mocha": "^11.7.2",
-    "chromedriver": "^131.0.0",
     "selenium-webdriver": "^4.35.0"
   },
   "dependencies": {
-    "axios": "^1.9.0"
+    "axios": "^1.9.0",
+    "node-schedule": "^2.1.1"
   }
 }

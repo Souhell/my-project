@@ -3,6 +3,7 @@ const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
 const { expect } = require("chai");
+const schedule = require("node-schedule");
 
 const colors = {
   red: "\x1b[31m",
@@ -320,5 +321,7 @@ module.exports = customDriver;
 //   await dr.quit();
 // })();
 
-
-
+// const puppeteer = require("puppeteer");
+// const notifier = require("node-notifier");
+// // هر 5 دقیقه یکبار اجرا
+// setInterval(checkSaipa, 5 * 60 * 1000);
