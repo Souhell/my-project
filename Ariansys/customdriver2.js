@@ -130,6 +130,7 @@ class customDriver {
     );
   }
 
+  // نسخه اصلی ساده‌تر (برای سازگاری با کدهای قبلی)
   async selectAntOption(inputXpath, optionTitle) {
     const input = await this.driver.findElement(By.xpath(inputXpath));
     await input.click();
@@ -142,6 +143,67 @@ class customDriver {
     );
     await option.click();
     await this.driver.sleep(500);
+  }
+
+  // 🆕 نسخه جدید کامل‌تر و هوشمندتر
+  /**
+   * انتخاب گزینه از Ant Design Select
+   * @param {string} selectCss - CSS سلکتور برای جعبه Select (مثلاً ".ant-select")
+   * @param {number|string} option - اندیس عددی (مثل 0 یا 2) یا متن گزینه ("گروه اسفند ماه 1403")
+   */
+  async selectAntOptionV2(selectCss, option) {
+    const { By, until } = require("selenium-webdriver");
+
+    // 1️⃣ پیدا کردن و کلیک روی Select اصلی
+    const selectBox = await this.driver.findElement(By.css(selectCss));
+    await this.driver.executeScript("arguments[0].click();", selectBox);
+
+    // 2️⃣ صبر برای رندر dropdown
+    await this.driver.wait(
+      until.elementLocated(
+        By.xpath(
+          "//div[contains(@class, 'ant-select-item-option') or contains(@class, 'ant-select-item-option-content')]"
+        )
+      ),
+      8000
+    );
+
+    // 3️⃣ گرفتن همه گزینه‌ها
+    const options = await this.driver.findElements(
+      By.xpath(
+        "//div[contains(@class, 'ant-select-item-option') or contains(@class, 'ant-select-item-option-content')]"
+      )
+    );
+
+    if (options.length === 0)
+      throw new Error("❌ هیچ گزینه‌ای در dropdown یافت نشد");
+
+    let targetOption;
+
+    // 4️⃣ انتخاب بر اساس نوع ورودی
+    if (typeof option === "number") {
+      targetOption = options[option];
+    } else {
+      for (let el of options) {
+        const text = await el.getText();
+        if (text.trim() === option.trim()) {
+          targetOption = el;
+          break;
+        }
+      }
+    }
+
+    if (!targetOption)
+      throw new Error(`❌ گزینه '${option}' یافت نشد`);
+
+    // 5️⃣ اسکرول و کلیک امن
+    await this.driver.executeScript(
+      "arguments[0].scrollIntoView({block:'center'});",
+      targetOption
+    );
+    await this.driver.executeScript("arguments[0].click();", targetOption);
+
+    await this.driver.sleep(300);
   }
 
   // ========================
@@ -285,44 +347,7 @@ class customDriver {
     await this.driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`)).click();
 
     await this.driver.sleep(1000);
-
-    // const closeBtn = await this.driver.findElement(
-    //   By.xpath("/html/body/div[3]/main/div/div/div/div/div/button")
-    // );
-    // await closeBtn.click();
-
-    await this.driver.sleep(1000);
   }
 }
 
 module.exports = customDriver;
-
-// 🎯 تست نمونه
-// console.log("کد ملی:", customDriver.generateNationalId());
-// console.log("موبایل:", customDriver.generateIranianMobile());
-// console.log("کارت بانکی:", customDriver.generateBankCard());
-
-
-// 🎯 تست نمونه
-// console.log("کد ملی:", customDriver.generateNationalId());
-// console.log("موبایل:", customDriver.generateIranianMobile());
-
-
-// const customDriver = require("./customDriver");
-
-// (async () => {
-//   const dr = new customDriver();
-//   await dr.createDriver("https://example.com", true, true); // headless=true
-
-//   // استفاده از helperها
-//   await dr.SelectByTitle("ثبت");
-//   await dr.ClickByText("span", "ورود");
-//   await dr.selectAntOption('//input[@id="MainCurrencyId"]', "8249000528");
-
-//   await dr.quit();
-// })();
-
-// const puppeteer = require("puppeteer");
-// const notifier = require("node-notifier");
-// // هر 5 دقیقه یکبار اجرا
-// setInterval(checkSaipa, 5 * 60 * 1000);

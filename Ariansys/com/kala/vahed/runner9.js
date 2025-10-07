@@ -21,29 +21,29 @@ async function runScriptsSequentially() {
         // const phones = require("./phones");
         // await phones(driver);
 
-        console.log("--- Running goruhkala.js ---");
-        const goruhkala = require("./vahed");
-        await goruhkala(driver);
+        console.log("--- Running kala.js ---");
+        const kala = require("./kala");
+        await kala(driver);
 
-        console.log("--- Running forushhamkar.js ---");
-        const forushhamkar = require("./forushhamkar");
-        await forushhamkar(driver);
+        console.log("--- Running moshakhasat.js ---");
+        const moshakhasat = require("./moshakhasat");
+        await moshakhasat(driver);
 
-        console.log("--- Running forushteam.js ---");
-        const forushteam = require("./forushteam");
-        await forushteam(driver);
+        console.log("--- Running vahed.js ---");
+        const vahed = require("./vahed");
+        await vahed(driver);
 
-        console.log("--- Running maliat.js ---");
-        const maliat = require("./maliat");
-        await maliat(driver);
+        console.log("--- Running vijegi.js ---");
+        const vijegi = require("./vijegi");
+        await vijegi(driver);
 
-        console.log("--- Running marketteam.js ---");
-        const marketteam = require("./marketteam");
-        await marketteam(driver);
+        console.log("--- Running zirvahed.js ---");
+        const zirvahed = require("./zirvahed");
+        await zirvahed(driver);
 
-        console.log("--- Running tanzimat.js ---");
-        const tanzimat = require("./tanzimat");
-        await tanzimat(driver);
+        // console.log("--- Running tanzimat.js ---");
+        // const tanzimat = require("./tanzimat");
+        // await tanzimat(driver);
 
     } catch (err) {
         console.error("Error in scripts:", err);

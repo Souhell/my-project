@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function kala() {
+async function moshakhasat() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -28,8 +28,8 @@ async function kala() {
     const steps = [
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]/ul/li[3]",
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/button[3]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]/ul/li[5]",
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
     ];
 
     for (const xpath of steps) {
@@ -39,30 +39,20 @@ async function kala() {
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button"
-        )
-      )
-      .click();
-    await driver.sleep(100);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
-        )
-      )
-      .sendKeys("11228");
-    await driver.sleep(1000);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/input"
-        )
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div/div/input")
       )
       .sendKeys("11229");
     await driver.sleep(100);
-
+    // await driver
+    //   .findElement(
+    //     By.xpath(
+    //       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/form/div[1]/div[2]/div/div[2]/div/div/div/div/input"
+    //     )
+    //   )
+    //   .sendKeys("10");
+    // await driver.sleep(100);
     // انتخاب گزینه اول
-    //     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input")).click();
+    //     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input")).click();
     //     await driver.sleep(100);
     //     const options = await driver.findElements(By.css('.ant-select-item-option'));
     //     if (options.length > 1) {
@@ -71,6 +61,7 @@ async function kala() {
     //     }
     // await driver.sleep(100);
 
+    
     // await driver
     //   .findElement(
     //     By.xpath(
@@ -79,6 +70,15 @@ async function kala() {
     //   )
     //   .sendKeys(10);
     // await driver.sleep(100);
+
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]"
+        )
+      )
+      .click();
+    await driver.sleep(2000);
 
     let bodyText = await driver.findElement(By.css("body")).getText();
     if (bodyText.includes("آرین")) {
@@ -93,5 +93,5 @@ async function kala() {
   }
 }
 
-kala();
-module.exports = kala;
+moshakhasat();
+module.exports = moshakhasat;

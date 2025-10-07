@@ -262,5 +262,5 @@ async function tanzimat() {
   }
 }
 
-// tanzimat();
+tanzimat();
 module.exports = tanzimat;

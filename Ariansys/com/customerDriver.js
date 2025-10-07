@@ -285,10 +285,11 @@ class customDriver {
 
     console.log("🔑 login with customDriver");
 
-    const loginpath = "/html/body/div[3]/main/div/div/div/div[2]/form";
-    await this.driver.findElement(By.xpath(`${loginpath}/div[1]//input`)).sendKeys(username);
-    await this.driver.findElement(By.xpath(`${loginpath}/div[2]//input`)).sendKeys(password);
-    await this.driver.findElement(By.xpath(`${loginpath}/div[4]//button`)).click();
+    const loginpath = "/html/body/div[3]/main/div/div/div/div[3]/form";
+    await this.driver.findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`)).sendKeys(username);
+    await this.driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`)).click();
+    await this.driver.findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/span/input`)).sendKeys(password);
+    await this.driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`)).click();
 
     await this.driver.sleep(1000);
 
