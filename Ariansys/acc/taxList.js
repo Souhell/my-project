@@ -1,4 +1,4 @@
-const { Builder, By, Key, until } = require("selenium-webdriver");
+const { Builder, By, until, Key, Actions } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
@@ -10,9 +10,16 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-// اضافه کردن تابع waitForElement
+// اضافه کردن توابع کمکی
 async function waitForElement(driver, xpath, timeout = 10000) {
   return await driver.wait(until.elementLocated(By.xpath(xpath)), timeout);
+}
+
+async function safeClick(driver, xpath, timeout = 10000) {
+  const element = await waitForElement(driver, xpath, timeout);
+  await driver.wait(until.elementIsVisible(element), timeout);
+  await driver.wait(until.elementIsEnabled(element), timeout);
+  await element.click();
 }
 
 async function selectFromDropdown(
@@ -67,7 +74,15 @@ async function selectFromDropdown(
   }
 }
 
-async function goruhkala() {
+async function clearAndType(driver, xpath, text) {
+  const element = await waitForElement(driver, xpath);
+  await element.click();
+  await element.sendKeys(Key.CONTROL + "a");
+  await element.sendKeys(Key.DELETE);
+  await element.sendKeys(text);
+}
+
+async function maliat() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -83,10 +98,10 @@ async function goruhkala() {
 
     // اجرای گام‌ها
     const steps = [
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/button[3]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[2]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[2]/ul/li[1]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[2]/ul/li[1]/ul/li[5]",
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
     ];
 
     for (const xpath of steps) {
@@ -96,10 +111,10 @@ async function goruhkala() {
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/form/div[1]/div/div/div[2]/div/div/input"
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
         )
       )
-      .sendKeys("11229");
+      .sendKeys("7654321");
     await driver.sleep(100);
     // انتخاب گزینه اول
     //     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input")).click();
@@ -111,23 +126,77 @@ async function goruhkala() {
     //     }
     // await driver.sleep(100);
 
-    // await driver
-    //   .findElement(
-    //     By.xpath(
-    //       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div/input"
-    //     )
-    //   )
-    //   .sendKeys(10);
-    // await driver.sleep(100);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div/input"
+        )
+      )
+      .sendKeys(10);
+    await driver.sleep(100);
 
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/form/div[2]/div/div/div/div/div/button"
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div"
         )
       )
       .click();
     await driver.sleep(1000);
+    //ویرایش
+    await safeClick(
+      driver,
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[1]"
+    );
+    await driver.sleep(100);
+
+    await clearAndType(
+      driver,
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input" , nationalId
+        )
+    await driver.sleep(100);
+
+    await clearAndType(
+      driver,
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div/input" , "11"
+        )
+    await driver.sleep(100);
+
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+
+    ///اکتیو
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[3]"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+    //حدف
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[2]"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div/div[2]/div/div/button[2]"
+        )
+      )
+      .click();
+    await driver.sleep(100);
 
     const bodyText = await driver.findElement(By.css("body")).getText();
     if (bodyText.includes("آرین")) {
@@ -150,5 +219,5 @@ async function goruhkala() {
   }
 }
 
-goruhkala();
-module.exports = goruhkala;
+maliat();
+module.exports = maliat;

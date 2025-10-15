@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function salesPartnerList() {
+async function marketteam() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -28,7 +28,7 @@ async function salesPartnerList() {
     const steps = [
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]",
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]/ul/li[8]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]/ul/li[7]",
       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
     ];
 
@@ -86,5 +86,5 @@ async function salesPartnerList() {
   }
 }
 
-salesPartnerList();
-module.exports = salesPartnerList;
+// marketteam();
+module.exports = marketteam;

@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function salesPartnerList() {
+async function forushteam() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -86,5 +86,5 @@ async function salesPartnerList() {
   }
 }
 
-salesPartnerList();
-module.exports = salesPartnerList;
+// forushteam();
+module.exports = forushteam;

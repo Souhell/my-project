@@ -82,7 +82,7 @@ async function clearAndType(driver, xpath, text) {
   await element.sendKeys(text);
 }
 
-async function sarfasl() {
+async function account() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -276,8 +276,8 @@ async function sarfasl() {
     // گرفتن اسکرین‌شات برای دیباگ
     try {
       const screenshot = await driver.takeScreenshot();
-      fs.writeFileSync("sarfasl-error-screenshot.png", screenshot, "base64");
-      console.log("اسکرین‌شات از خطا در sarfasl-error-screenshot.png ذخیره شد");
+      fs.writeFileSync("account-error-screenshot.png", screenshot, "base64");
+      console.log("اسکرین‌شات از خطا در account-error-screenshot.png ذخیره شد");
     } catch (screenshotError) {
       console.log("خطا در گرفتن اسکرین‌شات:", screenshotError);
     }
@@ -286,5 +286,5 @@ async function sarfasl() {
   }
 }
 
-sarfasl();
-module.exports = sarfasl;
+account();
+module.exports = account;

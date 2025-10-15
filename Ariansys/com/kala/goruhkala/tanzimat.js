@@ -48,7 +48,7 @@ async function tanzimat() {
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div/div/span[3]/span/div/span"
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div[3]/div/div/div/div/span[3]"
         )
       )
       .click();
@@ -76,7 +76,7 @@ async function tanzimat() {
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[3]/div/div/div/div/span[3]/span/div/div/span[3]"
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div[3]/div/div/div/div/span[3]/span/div/div[2]/span[3]"
         )
       )
       .click();
@@ -171,7 +171,7 @@ async function tanzimat() {
       await options2[0].click();
     }
     await driver.sleep(100);
-
+    
     await driver
       .findElement(
         By.xpath(

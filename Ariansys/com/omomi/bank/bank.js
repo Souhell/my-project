@@ -74,5 +74,5 @@ async function bank() {
   }
 }
 
-// bank();
+bank();
 module.exports = bank;
