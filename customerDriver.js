@@ -289,7 +289,7 @@ class customDriver {
     await this.driver.findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`)).sendKeys(username);
     await this.driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`)).click();
     await this.driver.findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/span/input`)).sendKeys(password);
-    await this.driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`)).click();
+    await this.driver.findElement(By.xpath(`${loginpath}/div[3]/div/div/div/div/button`)).click();
 
     await this.driver.sleep(1000);
 

@@ -1,4 +1,4 @@
-const { Builder, By, until, Key, Actions } = require("selenium-webdriver");
+const { Builder, By, Key, until } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
@@ -9,6 +9,63 @@ const colors = {
   green: "\x1b[32m",
   reset: "\x1b[0m",
 };
+
+// اضافه کردن تابع waitForElement
+async function waitForElement(driver, xpath, timeout = 10000) {
+  return await driver.wait(until.elementLocated(By.xpath(xpath)), timeout);
+}
+
+async function selectFromDropdown(
+  driver,
+  dropdownXpath,
+  optionText = null,
+  optionIndex = null
+) {
+  try {
+    // کلیک برای باز کردن dropdown
+    const dropdown = await waitForElement(driver, dropdownXpath);
+    await driver.wait(until.elementIsEnabled(dropdown), 5000);
+    await dropdown.click();
+
+    // منتظر ماندن برای بارگذاری options
+    await driver.sleep(1500);
+
+    // پیدا کردن تمام options
+    const options = await driver.findElements(
+      By.css(".ant-select-item-option")
+    );
+
+    if (options.length === 0) {
+      console.log("هیچ گزینه‌ای در dropdown پیدا نشد");
+      return false;
+    }
+
+    console.log(`تعداد گزینه‌های پیدا شده: ${options.length}`);
+
+    // انتخاب گزینه بر اساس متن یا اندیس
+    if (optionText) {
+      for (let option of options) {
+        const text = await option.getText();
+        if (text.includes(optionText)) {
+          await option.click();
+          return true;
+        }
+      }
+    } else if (optionIndex !== null && options[optionIndex]) {
+      await options[optionIndex].click();
+      return true;
+    } else if (options.length > 0) {
+      // انتخاب اولین گزینه به عنوان fallback
+      await options[0].click();
+      return true;
+    }
+
+    return false;
+  } catch (error) {
+    console.log("خطا در انتخاب از dropdown:", error.message);
+    return false;
+  }
+}
 
 async function sherkatha() {
   // تولید کد ملی با متد customerDriver
@@ -50,7 +107,7 @@ async function sherkatha() {
           "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/form/div[2]/div/div[2]/div/div/input"
         )
       )
-      .sendKeys("11228");
+      .sendKeys(nationalId);
     await driver.sleep(1000);
     await driver
       .findElement(
@@ -442,18 +499,26 @@ async function sherkatha() {
     //   .sendKeys(10);
     // await driver.sleep(100);
 
-    let bodyText = await driver.findElement(By.css("body")).getText();
-    if (bodyText.includes("آرین")) {
-      console.log(`${colors.green}ok Aryan ${colors.reset}`);
-    } else {
-      console.log(`${colors.red}not ok Aryan ${colors.reset}`);
+    const bodyText = await driver.findElement(By.css("body")).getText();
+        if (bodyText.includes("آرین")) {
+          console.log(`${colors.green}ok Aryan${colors.reset}`);
+        } else {
+          console.log(`${colors.red}not ok Aryan${colors.reset}`);
+        }
+      } catch (err) {
+        console.error("❌ خطا:", err);
+        // گرفتن اسکرین‌شات برای دیباگ
+        try {
+          const screenshot = await driver.takeScreenshot();
+          fs.writeFileSync("customerGroup-screenshot.png", screenshot, "base64");
+          console.log("اسکرین‌شات از خطا در customerGroup-screenshot.png ذخیره شد");
+        } catch (screenshotError) {
+          console.log("خطا در گرفتن اسکرین‌شات:", screenshotError);
+        }
+      } finally {
+        await driver.quit();
+      }
     }
-  } catch (err) {
-    console.error("❌ خطا:", err);
-  } finally {
-    await driver.quit();
-  }
-}
-
+    
 sherkatha();
 module.exports = sherkatha;
