@@ -67,95 +67,87 @@ async function selectFromDropdown(
   }
 }
 
-async function salesPartnerList() {
-  // تولید کد ملی با متد customerDriver
+async function discountTypeList() {
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
 
-  // ساخت درایور با اکتیو بودن نوتیفیکیشن و ری‌استور persist
   let dr = new customDriver();
   const url = "https://frontbuild.ariansystemdp.local/fa";
   let driver = await dr.createDriver(url, true);
 
   try {
-    // لاگین با متد customerDriver
     await dr.login();
 
-    // اجرای گام‌ها
     const steps = [
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]",
       "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]/ul/li[5]",
+      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]/ul/li[9]",
       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
     ];
 
     for (const xpath of steps) {
-      await driver.findElement(By.xpath(xpath)).click();
-      await driver.sleep(100);
+      const el = await waitForElement(driver, xpath);
+      await el.click();
+      await driver.sleep(300);
     }
+
+    // پر کردن کد ملی
+    const nationalIdInputXpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div/div/div[2]/div[1]/div/input";
+    await waitForElement(driver, nationalIdInputXpath);
     await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input"
-        )
-      )
+      .findElement(By.xpath(nationalIdInputXpath))
       .sendKeys(nationalId);
-    await driver.sleep(100);
-    // انتخاب گزینه اول
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input"
-        )
-      )
-      .click();
-    await driver.sleep(100);
-    const options = await driver.findElements(
-      By.css(".ant-select-item-option")
-    );
-    if (options.length > 1) {
-      await driver.executeScript(
-        "arguments[0].scrollIntoView(true);",
-        options[1]
-      );
-      await options[1].click();
+    // ادامه مراحل ساده
+    const nextBtnXpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div";
+    await waitForElement(driver, nextBtnXpath);
+    await driver.findElement(By.xpath(nextBtnXpath)).click();
+    await driver.sleep(1200);
+    const editBtn2Xpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/div/span[1]";
+    try {
+      const editButton = await waitForElement(driver, editBtn2Xpath);
+      await editButton.click();
+    } catch (error) {
+      console.log("خطا در پیدا کردن دکمه ویرایش:", error.message);
+      await driver.navigate().refresh();
+      await driver.sleep(1200);
+      const editButton = await waitForElement(driver, editBtn2Xpath);
+      await editButton.click();
     }
-    await driver.sleep(100);
+    await driver.sleep(700);
 
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[3]/div/div[2]/div[1]/div/div/div/input"
-        )
-      )
-      .sendKeys(10);
-    await driver.sleep(100);
-
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div"
-        )
-      )
-      .click();
-    await driver.sleep(300);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[5]/div/span[1]"
-        )
-      )
-      .click();
-    await driver.sleep(300);
-
+    // پاک کردن و نوشتن مقدار جدید
     const editInputXpath =
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[1]/div/div[2]/div[1]/div/input";
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div/div/div[2]/div[1]/div/input";
     const editInput = await waitForElement(driver, editInputXpath);
     await editInput.sendKeys(Key.CONTROL + "a");
     await editInput.sendKeys(Key.DELETE);
     await editInput.sendKeys("7654321");
     await driver.sleep(300);
+    const nextBtn2Xpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div";
+    await waitForElement(driver, nextBtn2Xpath);
+    await driver.findElement(By.xpath(nextBtn2Xpath)).click();
+    await driver.sleep(700);
+    const activeBtnXpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/div/span[3]";
+    await waitForElement(driver, activeBtnXpath);
+    await driver.findElement(By.xpath(activeBtnXpath)).click();
+    await driver.sleep(100);
+    const deleteBtnXpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[3]/div/span[2]";
+    await waitForElement(driver, deleteBtnXpath);
+    await driver.findElement(By.xpath(deleteBtnXpath)).click();
+    await driver.sleep(100);
+    const saveBtnXpath =
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div/div[2]/div/div/button[2]";
+    await waitForElement(driver, saveBtnXpath);
+    await driver.findElement(By.xpath(saveBtnXpath)).click();
+    await driver.sleep(100);
 
+    // بررسی نتیجه
     const bodyText = await driver.findElement(By.css("body")).getText();
     if (bodyText.includes("آرین")) {
       console.log(`${colors.green}ok Aryan${colors.reset}`);
@@ -177,5 +169,5 @@ async function salesPartnerList() {
   }
 }
 
-salesPartnerList();
-module.exports = salesPartnerList;
+discountTypeList();
+module.exports = discountTypeList;

@@ -99,7 +99,7 @@ async function goruhkala() {
           "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div[2]/form/div[1]/div/div/div[2]/div/div/input"
         )
       )
-      .sendKeys("11229");
+      .sendKeys("مواد اولیه");
     await driver.sleep(100);
     // انتخاب گزینه اول
     //     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input")).click();

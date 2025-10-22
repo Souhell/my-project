@@ -116,58 +116,6 @@ async function paymentMethodList() {
     await waitForElement(driver, nextBtnXpath);
     await driver.findElement(By.xpath(nextBtnXpath)).click();
     await driver.sleep(1200);
-    // ویرایش اولین ردیف - با انتظار بیشتر
-    // const editBtnXpath = "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]/td[4]/div/span[3]";
-    // await waitForElement(driver, editBtnXpath);
-    // await driver.findElement(By.xpath(editBtnXpath)).click();
-    // await driver.sleep(100);
-    // const firstDropdownXpath = "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[1]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input";
-    // await waitForElement(driver, firstDropdownXpath);
-    // await driver.findElement(By.xpath(firstDropdownXpath)).click();
-    // await driver.sleep(100);
-    // const options1 = await driver.findElements(By.css(".ant-select-item-option"));
-    // if (options1.length > 1) await options1[1].click();
-    // const secondDropdownXpath = "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input";
-    // await waitForElement(driver, secondDropdownXpath);
-    // await driver.findElement(By.xpath(secondDropdownXpath)).click();
-    // await driver.sleep(300);
-    // const secondSelect = await driver.findElement(By.xpath(
-    //   "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[2]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input"
-    // ));
-    // await secondSelect.click();
-    // await driver.sleep(300);
-    // const dropdowns2 = await driver.findElements(By.css('.ant-select-dropdown:not([aria-hidden="true"])'));
-    // const options2 = await dropdowns2[dropdowns2.length - 1].findElements(By.css(".ant-select-item-option"));
-    // await options2[1].click();
-    // await driver.sleep(700);
-    // const radio1Xpath = "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[4]/div/div/div/div/label/span[2]";
-    // const radio2Xpath = "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[3]/div/div/div/div/label/span[2]";
-    // const submitBtnXpath = "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div[2]/div/form/div[5]/div/div/div/div/div/button";
-    // await waitForElement(driver, radio1Xpath);
-    // await driver.sleep(500); // صبر برای بسته شدن احتمالی tooltip
-    // // انتقال موس به گوشه صفحه برای جلوگیری از باز شدن tooltip
-    // await driver.actions({ bridge: true }).move({ x: 0, y: 0 }).perform();
-    // try {
-    //   await driver.findElement(By.xpath(radio1Xpath)).click();
-    // } catch (e) {
-    //   // اگر باز هم خطا بود، دوباره تلاش کن
-    //   await driver.sleep(500);
-    //   await driver.findElement(By.xpath(radio1Xpath)).click();
-    // }
-    // await driver.sleep(100);
-    // await waitForElement(driver, radio2Xpath);
-    // await driver.actions({ bridge: true }).move({ x: 0, y: 0 }).perform();
-    // try {
-    //   await driver.findElement(By.xpath(radio2Xpath)).click();
-    // } catch (e) {
-    //   await driver.sleep(500);
-    //   await driver.findElement(By.xpath(radio2Xpath)).click();
-    // }
-    // await driver.sleep(100);
-    // await waitForElement(driver, submitBtnXpath);
-    // await driver.findElement(By.xpath(submitBtnXpath)).click();
-    // await driver.sleep(700);
-    // ویرایش اولین ردیف - با انتظار بیشتر
     const editBtn2Xpath =
       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div/div/div/div/div/div/table/tbody/tr/td[4]/div/span[1]";
     try {

@@ -10,7 +10,7 @@ const colors = {
   reset: "\x1b[0m",
 };
 
-async function forushteam() {
+async function saleTeamList() {
   // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
@@ -44,17 +44,6 @@ async function forushteam() {
       )
       .sendKeys(nationalId);
     await driver.sleep(100);
-    // انتخاب گزینه اول
-    //     await driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[1]/div/span/span[1]/input")).click();
-    //     await driver.sleep(100);
-    //     const options = await driver.findElements(By.css('.ant-select-item-option'));
-    //     if (options.length > 1) {
-    //         await driver.executeScript("arguments[0].scrollIntoView(true);", options[1]);
-    //         await options[1].click();
-    //     }
-    // await driver.sleep(100);
-
-    
     await driver
       .findElement(
         By.xpath(
@@ -86,5 +75,5 @@ async function forushteam() {
   }
 }
 
-// forushteam();
-module.exports = forushteam;
+// saleTeamList();
+module.exports = saleTeamList;
