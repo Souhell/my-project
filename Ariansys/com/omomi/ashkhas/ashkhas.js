@@ -78,5 +78,5 @@ async function ashkhas() {
         await driver.quit();
     }
 }
-// ashkhas();
+ashkhas();
 module.exports = ashkhas;

@@ -67,5 +67,5 @@ async function haqiqi() {
     await driver.quit();
   }
 }
-// haqiqi();
+haqiqi();
 module.exports = haqiqi;
