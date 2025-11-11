@@ -390,16 +390,13 @@ async function salesInvoiceList() {
       )
       .sendKeys("1");
     await driver.sleep(1000);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div"
-        )
-      )
-      .click();
+    await safeClick(
+      driver,
+      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
+    );
     await driver.sleep(700);
 
-    //بخش دوم
+    //بخش دومپ
     await driver
       .findElement(
         By.xpath(
@@ -925,7 +922,15 @@ async function salesInvoiceList() {
     await driver.sleep(300);
     await goodsInput20.sendKeys(Key.ENTER);
     await driver.sleep(300);
-    ///
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[7]/div/div[2]/div/div/button/div"
+        )
+      )
+      .click();
+    await driver.sleep(300);
+    ///اوراق
     await driver
       .findElement(
         By.xpath(
@@ -1073,7 +1078,8 @@ async function salesInvoiceList() {
     await driver.sleep(300);
     await goodsInput24.sendKeys(Key.ENTER);
     await driver.sleep(300);
-    ///
+
+    ///اقلام فاکتور فروش
     await driver
       .findElement(
         By.xpath(
@@ -1104,6 +1110,13 @@ async function salesInvoiceList() {
     await feeInput5.click();
     await feeInput5.sendKeys(Key.CONTROL + "a");
     await feeInput5.sendKeys("100");
+    await feeInput5.sendKeys(Key.ENTER);
+    await driver.sleep(300);
+
+    const feeInput7 = await driver.findElement(By.id("Fee"));
+    await feeInput7.click();
+    await feeInput7.sendKeys(Key.CONTROL + "a");
+    await feeInput7.sendKeys("100");
     await driver.sleep(700);
     await driver
       .findElement(
@@ -1284,12 +1297,335 @@ async function salesInvoiceList() {
     await driver
       .findElement(
         By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[7]/div/div[2]/div/div/input"
+        )
+      )
+      .sendKeys("1");
+    await driver
+      .findElement(
+        By.xpath(
           "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
         )
       )
       .click();
     await driver.sleep(700);
-    //بخش هشتم
+    //خدمات بیمه ای
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button"
+        )
+      )
+      .click();
+    await driver.sleep(300);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[1]/div/div[1]"
+        )
+      )
+      .click();
+    await driver.sleep(300);
+    await driver
+      .findElement(By.xpath("/html/body/div[4]/div/ul/li[10]"))
+      .click();
+    await driver.sleep(700);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[2]/div/div[2]/div/div/button"
+        )
+      )
+      .click();
+    await driver.sleep(700);
+    //////
+    const todayButton7 = await driver.wait(
+      until.elementLocated(
+        By.xpath("//button[normalize-space(text())='انتخاب امروز']")
+      ),
+      5000
+    );
+    await driver.wait(until.elementIsVisible(todayButton7), 5000);
+
+    await driver.executeScript(
+      "arguments[0].scrollIntoView(true);",
+      todayButton7
+    );
+    await driver.sleep(200);
+
+    await driver.executeScript("arguments[0].click();", todayButton7);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[4]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+    const options8 = await driver.findElements(
+      By.css(".ant-select-item-option")
+    );
+    if (options8.length > 0) {
+      await driver.executeScript(
+        "arguments[0].scrollIntoView(true);",
+        options8[0]
+      );
+      await options8[0].click();
+    }
+    await driver.sleep(300);
+    const goodsInput33 = await driver.findElement(
+      By.id("sellWithCustomerForm_SaleTypeId")
+    );
+    await goodsInput33.click();
+    await goodsInput33.sendKeys("فروش نقدی");
+    await driver.sleep(300);
+    await goodsInput33.sendKeys(Key.ENTER);
+    await driver.sleep(300);
+    const goodsInput32 = await driver.findElement(
+      By.id("sellWithCustomerForm_PayOfTypeId")
+    );
+    await goodsInput32.click();
+    await goodsInput32.sendKeys("نقدی");
+    await driver.sleep(300);
+    await goodsInput32.sendKeys(Key.ENTER);
+    await driver.sleep(300);
+    ///
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[3]/span/span"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+
+    await driver.sleep(1000);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[3]/div/div[1]/div/span/span[1]"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+    // بهترین روش
+    const goodsInput31 = await driver.findElement(By.id("GoodsId"));
+    await goodsInput31.click();
+    await goodsInput31.sendKeys("new goods");
+    await driver.sleep(300);
+
+    const feeInput8 = await driver.findElement(By.id("Fee"));
+    await feeInput8.click();
+    await feeInput8.sendKeys(Key.CONTROL + "a");
+    await feeInput8.sendKeys("100");
+    await driver.sleep(700);
+
+    ////
+
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[4]/span/span"
+        )
+      )
+      .click();
+    const goodsInput30 = await driver.findElement(By.id("Unit1Id"));
+    await goodsInput30.click();
+    await goodsInput30.sendKeys("عدد");
+    await driver.sleep(300);
+    //
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[5]/div"
+        )
+      )
+      .click();
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[5]/div/div/input"
+        )
+      )
+      .sendKeys("1");
+    await driver.sleep(700);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[7]/div/div[2]/div/div/input"
+        )
+      )
+      .sendKeys("1");
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
+        )
+      )
+      .click();
+    await driver.sleep(700);
+    //بلیط هواپیما
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button"
+        )
+      )
+      .click();
+    await driver.sleep(300);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[1]/div/div[1]"
+        )
+      )
+      .click();
+    await driver.sleep(300);
+    await driver
+      .findElement(By.xpath("/html/body/div[4]/div/ul/li[12]"))
+      .click();
+    await driver.sleep(700);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[2]/div/div[2]/div/div/button"
+        )
+      )
+      .click();
+    await driver.sleep(700);
+    //////
+    const todayButton8 = await driver.wait(
+      until.elementLocated(
+        By.xpath("//button[normalize-space(text())='انتخاب امروز']")
+      ),
+      5000
+    );
+    await driver.wait(until.elementIsVisible(todayButton8), 5000);
+
+    await driver.executeScript(
+      "arguments[0].scrollIntoView(true);",
+      todayButton8
+    );
+    await driver.sleep(200);
+
+    await driver.executeScript("arguments[0].click();", todayButton8);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[4]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+    const options9 = await driver.findElements(
+      By.css(".ant-select-item-option")
+    );
+    if (options9.length > 0) {
+      await driver.executeScript(
+        "arguments[0].scrollIntoView(true);",
+        options9[0]
+      );
+      await options9[0].click();
+    }
+    await driver.sleep(300);
+    const goodsInput37 = await driver.findElement(
+      By.id("sellWithCustomerForm_SaleTypeId")
+    );
+    await goodsInput37.click();
+    await goodsInput37.sendKeys("فروش نقدی");
+    await driver.sleep(300);
+    await goodsInput37.sendKeys(Key.ENTER);
+    await driver.sleep(300);
+    const goodsInput36 = await driver.findElement(
+      By.id("sellWithCustomerForm_PayOfTypeId")
+    );
+    await goodsInput36.click();
+    await goodsInput36.sendKeys("نقدی");
+    await driver.sleep(300);
+    await goodsInput36.sendKeys(Key.ENTER);
+    await driver.sleep(300);
+    ///
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[3]/span/span"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+
+    await driver.sleep(1000);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[3]/div/div[1]/div/span/span[1]"
+        )
+      )
+      .click();
+    await driver.sleep(100);
+    // بهترین روش
+    const goodsInput35 = await driver.findElement(By.id("GoodsId"));
+    await goodsInput35.click();
+    await goodsInput35.sendKeys("new goods");
+    await driver.sleep(300);
+
+    const feeInput9 = await driver.findElement(By.id("Fee"));
+    await feeInput9.click();
+    await feeInput9.sendKeys(Key.CONTROL + "a");
+    await feeInput9.sendKeys("100");
+    await driver.sleep(700);
+
+    ////
+
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[4]/span/span"
+        )
+      )
+      .click();
+    const goodsInput34 = await driver.findElement(By.id("Unit1Id"));
+    await goodsInput34.click();
+    await goodsInput34.sendKeys("عدد");
+    await driver.sleep(300);
+    //
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[5]/div"
+        )
+      )
+      .click();
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[5]/div/div/input"
+        )
+      )
+      .sendKeys("1");
+    await driver.sleep(700);
+    await driver.findElement(By.id("sellWithCustomerForm_FlightType")).click();
+
+    const options10 = await driver.findElements(
+      By.id("sellWithCustomerForm_FlightType")
+    );
+    if (options10.length > 0) {
+      await driver.executeScript(
+        "arguments[0].scrollIntoView(true);",
+        options10[0]
+      );
+      await options10[0].click();
+    }
+    await driver.sleep(300);
+    await driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
+        )
+      )
+      .click();
+    await driver.sleep(700);
+    //بارنامه
     // await driver.navigate().refresh();
     const activeBtnXpath =
       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/div/div/div/table/tbody/tr[1]/td[8]/div/span[4]";
