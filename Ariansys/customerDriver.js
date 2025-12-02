@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const { expect } = require("chai");
 const schedule = require("node-schedule");
-  
+
 const colors = {
   red: "\x1b[31m",
   green: "\x1b[32m",
@@ -16,8 +16,7 @@ class customDriver {
     this.storagePath = path.join(__dirname, storageFile);
   }
 
-
-   // ========================
+  // ========================
   // 🎯 Schedule Helper
   // ========================
   scheduleJob(cronOrDate, callback) {
@@ -35,13 +34,20 @@ class customDriver {
   async createDriver(url, withPersist, headless = false) {
     const options = new chrome.Options();
     if (headless) {
-      options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+      options.addArguments(
+        "--headless",
+        "--no-sandbox",
+        "--disable-dev-shm-usage"
+      );
     }
     options.setUserPreferences({
       "profile.default_content_setting_values.notifications": 1,
     });
 
-    this.driver = await new Builder().forBrowser("chrome").setChromeOptions(options).build();
+    this.driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(options)
+      .build();
 
     if (url && withPersist === true) {
       await this.driver.get(url);
@@ -92,7 +98,11 @@ class customDriver {
   // ========================
   async SelectByTitle(title) {
     const btn = await this.driver.wait(
-      until.elementLocated(By.xpath(`//button[contains(@class, "ant-btn") and span[text()="${title}"]]`)),
+      until.elementLocated(
+        By.xpath(
+          `//button[contains(@class, "ant-btn") and span[text()="${title}"]]`
+        )
+      ),
       5000
     );
     await btn.click();
@@ -141,7 +151,9 @@ class customDriver {
     const input = await this.driver.findElement(By.xpath(inputXpath));
     await input.click();
     await this.driver.wait(
-      until.elementLocated(By.css(`.ant-select-item-option[title="${optionTitle}"]`)),
+      until.elementLocated(
+        By.css(`.ant-select-item-option[title="${optionTitle}"]`)
+      ),
       5000
     );
     const option = await this.driver.findElement(
@@ -178,7 +190,10 @@ class customDriver {
 
   async sendKeys(element, ...keys) {
     const actions = this.getActions();
-    await actions.click(element).sendKeys(...keys).perform();
+    await actions
+      .click(element)
+      .sendKeys(...keys)
+      .perform();
     return this;
   }
 
@@ -243,12 +258,37 @@ class customDriver {
 
   static generateIranianMobile() {
     const prefixes = [
-      "0910","0911","0912","0913","0914","0915","0916","0917","0918","0919",
-      "0920","0921","0922","0923","0930","0933","0935","0936","0937","0938","0939",
-      "0990","0991","0992","0993","0994"
+      "0910",
+      "0911",
+      "0912",
+      "0913",
+      "0914",
+      "0915",
+      "0916",
+      "0917",
+      "0918",
+      "0919",
+      "0920",
+      "0921",
+      "0922",
+      "0923",
+      "0930",
+      "0933",
+      "0935",
+      "0936",
+      "0937",
+      "0938",
+      "0939",
+      "0990",
+      "0991",
+      "0992",
+      "0993",
+      "0994",
     ];
     const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-    const rest = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join("");
+    const rest = Array.from({ length: 7 }, () =>
+      Math.floor(Math.random() * 10)
+    ).join("");
     return prefix + rest;
   }
 
@@ -286,10 +326,28 @@ class customDriver {
     console.log("🔑 login with customDriver");
 
     const loginpath = "/html/body/div[3]/main/div/div/div/div[3]/form";
-    await this.driver.findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`)).sendKeys(username);
-    await this.driver.findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`)).click();
-    await this.driver.findElement(By.xpath("/html/body/div[3]/main/div/div/div/div[3]/form/div[1]/div/div[2]/div/div/span/input")).sendKeys(password);
-    await this.driver.findElement(By.xpath("/html/body/div[3]/main/div/div/div/div[3]/form/div[3]/div/div/div/div/button")).click();
+    await this.driver
+      .findElement(By.xpath(`${loginpath}/div[1]/div/div[2]/div/div/input`))
+      .sendKeys(username);
+    await this.driver
+      .findElement(By.xpath(`${loginpath}/div[2]/div/div/div/div/button`))
+      .click();
+    await this.driver.sleep(1000);
+    await this.driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/main/div/div/div/div[3]/form/div[1]/div/div[2]/div/div/span/input"
+        )
+      )
+      .sendKeys(password);
+    await this.driver.sleep(1000);
+    await this.driver
+      .findElement(
+        By.xpath(
+          "/html/body/div[3]/main/div/div/div/div[3]/form/div[3]/div/div/div/div/button"
+        )
+      )
+      .click();
 
     await this.driver.sleep(1000);
 
@@ -309,11 +367,9 @@ module.exports = customDriver;
 // console.log("موبایل:", customDriver.generateIranianMobile());
 // console.log("کارت بانکی:", customDriver.generateBankCard());
 
-
 // 🎯 تست نمونه
 // console.log("کد ملی:", customDriver.generateNationalId());
 // console.log("موبایل:", customDriver.generateIranianMobile());
-
 
 // const customDriver = require("./customDriver");
 
@@ -328,6 +384,3 @@ module.exports = customDriver;
 
 //   await dr.quit();
 // })();
-
-
-

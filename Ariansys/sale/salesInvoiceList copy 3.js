@@ -5,24 +5,27 @@ const path = require("path");
 const customDriver = require("../customerDriver");
 const { Actions } = require("selenium-webdriver");
 const { Entry } = require("selenium-webdriver/lib/logging");
+
 const colors = {
   red: "\x1b[31m",
   green: "\x1b[32m",
   reset: "\x1b[0m",
 };
 
-// بهبود waitForElement برای گرفتن المنت با timeout قابل تنظیم
+// ---------- Helper ها ----------
+
+// منتظر ماندن برای یک المنت با XPath
 async function waitForElement(driver, xpath, timeout = 10000) {
   return await driver.wait(until.elementLocated(By.xpath(xpath)), timeout);
 }
 
-// ایمن‌تر کردن کلیک: ensure visible/enabled سپس تلاش با JS fallback
+// کلیک امن با چند روش (actions, JS, native)
 async function safeClick(driver, xpath, timeout = 10000) {
   const element = await waitForElement(driver, xpath, timeout);
   await driver.wait(until.elementIsVisible(element), timeout);
   await driver.wait(until.elementIsEnabled(element), timeout);
+
   try {
-    // تلاش با actions اول (شبیه کلیک واقعی)
     await driver
       .actions({ async: true })
       .move({ origin: element })
@@ -30,17 +33,16 @@ async function safeClick(driver, xpath, timeout = 10000) {
       .perform();
   } catch (e) {
     try {
-      // fallback: کلیک با JS
       await driver.executeScript("arguments[0].click();", element);
     } catch (e2) {
-      // fallback نهایی: native click
       await element.click();
     }
   }
+
   return element;
 }
 
-// بهبود selectFromDropdown با شناسایی opener مناسب و انتظار برای dropdown قابل مشاهده
+// انتخاب از dropdown آنت‌دیزاین با XPath روی opener (selector یا input)
 async function selectFromDropdown(
   driver,
   dropdownXpath,
@@ -49,12 +51,10 @@ async function selectFromDropdown(
   timeout = 8000
 ) {
   try {
-    // تلاش برای پیدا کردن opener (input یا selector)
     let opener;
     try {
       opener = await waitForElement(driver, dropdownXpath, 3000);
     } catch (e) {
-      // fallback: انتخاب اولین selector کلی موجود
       const selectors = await driver.findElements(
         By.css("div.ant-select-selector, div.ant-select")
       );
@@ -66,7 +66,7 @@ async function selectFromDropdown(
       return false;
     }
 
-    // اگر opener یک input بود، سعی کن selector والد را کلیک کنی
+    // اگر opener input بود، برو سراغ div.ant-select-selector والدش
     try {
       const tag = (await opener.getTagName()).toLowerCase();
       if (tag === "input") {
@@ -83,7 +83,7 @@ async function selectFromDropdown(
       }
     } catch (e) {}
 
-    // بستن tooltip/hover احتمالی
+    // بستن tooltipها و ESC
     try {
       await driver.actions({ async: true }).move({ x: 0, y: 0 }).perform();
       await driver.findElement(By.css("body")).sendKeys(Key.ESCAPE);
@@ -96,11 +96,11 @@ async function selectFromDropdown(
     await driver.sleep(120);
     await driver.executeScript("arguments[0].click();", opener);
 
-    // پیدا کردن option های باز شده در dropdown فعال
     const visibleOptions = By.css(
       ".ant-select-dropdown:not(.ant-select-dropdown-hidden) .ant-select-item-option"
     );
     await driver.wait(until.elementsLocated(visibleOptions), timeout);
+
     let options = await driver.findElements(visibleOptions);
     if (!options || options.length === 0) {
       await driver.sleep(250);
@@ -111,7 +111,6 @@ async function selectFromDropdown(
       return false;
     }
 
-    // انتخاب بر اساس متن یا ایندکس
     if (optionText) {
       for (let opt of options) {
         const txt = (await opt.getText()).trim();
@@ -124,22 +123,19 @@ async function selectFromDropdown(
       }
       return false;
     }
+
     if (optionIndex !== null && options[optionIndex]) {
-      await driver.executeScript(
-        "arguments[0].scrollIntoView(true);",
-        options[optionIndex]
-      );
-      await driver.executeScript("arguments[0].click();", options[optionIndex]);
+      const opt = options[optionIndex];
+      await driver.executeScript("arguments[0].scrollIntoView(true);", opt);
+      await driver.executeScript("arguments[0].click();", opt);
       await driver.sleep(150);
       return true;
     }
 
-    // fallback: انتخاب اولین گزینه
-    await driver.executeScript(
-      "arguments[0].scrollIntoView(true);",
-      options[0]
-    );
-    await driver.executeScript("arguments[0].click();", options[0]);
+    // fallback: اولین گزینه
+    const opt0 = options[0];
+    await driver.executeScript("arguments[0].scrollIntoView(true);", opt0);
+    await driver.executeScript("arguments[0].click();", opt0);
     await driver.sleep(150);
     return true;
   } catch (err) {
@@ -148,7 +144,48 @@ async function selectFromDropdown(
   }
 }
 
-// helper جدید: کلیک سریالی با retry, چند روش کلیک و گرفتن اسکرین‌شات موقع خطای نهایی
+// ساخت XPath روی selector مربوط به یک input خاص (Ant Design Select)
+function selectorXpathByInputId(inputId) {
+  return `//input[@id='${inputId}']/ancestor::div[contains(@class,'ant-select')]/div[contains(@class,'ant-select-selector')]`;
+}
+
+// انتخاب گزینه‌ی dropdown بر اساس id input و متن/ایندکس گزینه
+async function selectByInputId(
+  driver,
+  inputId,
+  optionText = null,
+  optionIndex = null,
+  timeout = 8000
+) {
+  const xpath = selectorXpathByInputId(inputId);
+  return await selectFromDropdown(
+    driver,
+    xpath,
+    optionText,
+    optionIndex,
+    timeout
+  );
+}
+
+// انتخاب پیش‌فرض: «فروش نقدی» + «نقدی»
+async function selectDefaultSaleAndPay(driver) {
+  await selectByInputId(
+    driver,
+    "sellWithCustomerForm_SaleTypeId",
+    "فروش نقدی",
+    null
+  );
+  await driver.sleep(200);
+  await selectByInputId(
+    driver,
+    "sellWithCustomerForm_PayOfTypeId",
+    "نقدی",
+    null
+  );
+  await driver.sleep(200);
+}
+
+// کلیک چند مرحله‌ای روی منوها
 async function clickSequence(
   driver,
   xpaths,
@@ -156,6 +193,7 @@ async function clickSequence(
 ) {
   for (const xp of xpaths) {
     let clicked = false;
+
     for (let attempt = 1; attempt <= opts.retries; attempt++) {
       try {
         console.log(`trying click ${xp} (attempt ${attempt})`);
@@ -193,7 +231,7 @@ async function clickSequence(
           `click ${xp} failed on attempt ${attempt}:`,
           err.message || err
         );
-        // تلاش برای باز کردن والد منو در اولین تلاش
+
         if (attempt === 1) {
           try {
             const parentXpath = xp.replace(/\/ul\/.*/, "");
@@ -217,6 +255,7 @@ async function clickSequence(
             }
           } catch (pe) {}
         }
+
         await driver.sleep(opts.waitBetween);
       }
     }
@@ -244,21 +283,19 @@ async function clickSequence(
   }
 }
 
+// ---------- تابع اصلی ----------
+
 async function salesInvoiceList() {
-  // تولید کد ملی با متد customerDriver
   const nationalId = customDriver.generateNationalId();
   console.log("کد ملی تولید شده:", nationalId);
 
-  // ساخت درایور با اکتیو بودن نوتیفیکیشن و ری‌استور persist
   let dr = new customDriver();
   const url = "https://frontbuild.ariansystemdp.local/fa";
   let driver = await dr.createDriver(url, true);
 
   try {
-    // لاگین با متد customerDriver
     await dr.login();
 
-    // اجرای گام‌ها
     const steps = [
       "//div[@role='menuitem' and .//span[text()='فروش']]",
       "//div[@role='menuitem' and .//span[text()='عملیات']]",
@@ -270,7 +307,9 @@ async function salesInvoiceList() {
       waitBetween: 300,
       locateTimeout: 7000,
     });
-    //قروش با اطلاعات مشتری
+
+    // ==================== سناریو ۱: فروش با اطلاعات مشتری ====================
+
     await driver
       .findElement(
         By.xpath(
@@ -279,6 +318,7 @@ async function salesInvoiceList() {
       )
       .click();
     await driver.sleep(700);
+
     const todayButton = await driver.wait(
       until.elementLocated(
         By.xpath("//button[normalize-space(text())='انتخاب امروز']")
@@ -286,14 +326,14 @@ async function salesInvoiceList() {
       5000
     );
     await driver.wait(until.elementIsVisible(todayButton), 5000);
-
     await driver.executeScript(
       "arguments[0].scrollIntoView(true);",
       todayButton
     );
     await driver.sleep(200);
-
     await driver.executeScript("arguments[0].click();", todayButton);
+
+    // انتخاب مشتری (اولین مورد)
     await driver
       .findElement(
         By.xpath(
@@ -313,24 +353,11 @@ async function salesInvoiceList() {
       await options1[0].click();
     }
     await driver.sleep(300);
-    const goodsInput2 = await driver.findElement(
-      By.id("sellWithCustomerForm_SaleTypeId")
-    );
-    await goodsInput2.click();
-    await goodsInput2.sendKeys("فروش نقدی");
-    await driver.sleep(300);
-    await goodsInput2.sendKeys(Key.ENTER);
-    await driver.sleep(300);
 
-    const goodsInput3 = await driver.findElement(
-      By.id("sellWithCustomerForm_PayOfTypeId")
-    );
-    await goodsInput3.click();
-    await goodsInput3.sendKeys("نقدی");
-    await driver.sleep(300);
-    await goodsInput3.sendKeys(Key.ENTER);
-    await driver.sleep(300);
-    ///اقلام فاکتور فروش
+    // نوع فروش + روش تسویه (فروش نقدی / نقدی) با helper
+    await selectDefaultSaleAndPay(driver);
+
+    // اقلام فاکتور (مثل قبل)
     await driver
       .findElement(
         By.xpath(
@@ -338,7 +365,7 @@ async function salesInvoiceList() {
         )
       )
       .click();
-        await driver.sleep(1000);
+    await driver.sleep(1000);
     await driver
       .findElement(
         By.xpath(
@@ -363,11 +390,10 @@ async function salesInvoiceList() {
         )
       )
       .click();
-    const goodsInput4 = await driver.findElement(By.id("Unit1Id"));
-    await goodsInput4.click();
-    await goodsInput4.sendKeys("عدد");
+    const unitInput1 = await driver.findElement(By.id("Unit1Id"));
+    await unitInput1.click();
+    await unitInput1.sendKeys("عدد");
     await driver.sleep(300);
-    //
     await driver
       .findElement(
         By.xpath(
@@ -383,11 +409,14 @@ async function salesInvoiceList() {
       )
       .sendKeys("1");
     await driver.sleep(1000);
+
     await safeClick(
       driver,
       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
     );
     await driver.sleep(700);
+
+    // ==================== اینجا تمام سناریوهای وسطت را از کد خودت کپی کن ====================
     //بدون اطلاعات مشتری
     await driver
       .findElement(
@@ -1838,7 +1867,7 @@ async function salesInvoiceList() {
       )
       .click();
     await driver.sleep(700);
-    //بلیط هواپیما
+    // دکمه + بلیط هواپیما
     await driver
       .findElement(
         By.xpath(
@@ -1859,6 +1888,8 @@ async function salesInvoiceList() {
       .findElement(By.xpath("/html/body/div[4]/div/ul/li[12]"))
       .click();
     await driver.sleep(700);
+
+    // تاریخ
     await driver
       .findElement(
         By.xpath(
@@ -1874,50 +1905,19 @@ async function salesInvoiceList() {
       5000
     );
     await driver.wait(until.elementIsVisible(todayButton8), 5000);
-
     await driver.executeScript(
       "arguments[0].scrollIntoView(true);",
       todayButton8
     );
     await driver.sleep(200);
-
     await driver.executeScript("arguments[0].click();", todayButton8);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[4]/div/div[2]/div/div/div/div[1]/div/span/span[1]/input"
-        )
-      )
-      .click();
-    await driver.sleep(100);
-    const options9 = await driver.findElements(
-      By.css(".ant-select-item-option")
-    );
-    if (options9.length > 0) {
-      await driver.executeScript(
-        "arguments[0].scrollIntoView(true);",
-        options9[0]
-      );
-      await options9[0].click();
-    }
-    await driver.sleep(300);
-    const goodsInput37 = await driver.findElement(
-      By.id("sellWithCustomerForm_SaleTypeId")
-    );
-    await goodsInput37.click();
-    await goodsInput37.sendKeys("فروش نقدی");
-    await driver.sleep(300);
-    await goodsInput37.sendKeys(Key.ENTER);
-    await driver.sleep(300);
-    const goodsInput36 = await driver.findElement(
-      By.id("sellWithCustomerForm_PayOfTypeId")
-    );
-    await goodsInput36.click();
-    await goodsInput36.sendKeys("نقدی");
-    await driver.sleep(300);
-    await goodsInput36.sendKeys(Key.ENTER);
-    await driver.sleep(300);
-    ///اقلام فاکتور
+
+    // انتخاب مشتری/مسافر اگر لازم است (مثل کد خودت) ...
+
+    // نوع فروش + روش تسویه با helper (اینجا دقیقا جایی بود که خطا می‌گرفتی)
+    await selectDefaultSaleAndPay(driver);
+
+    // اقلام فاکتور (بلیط هواپیما) – همان کد خودت
     await driver
       .findElement(
         By.xpath(
@@ -1925,8 +1925,6 @@ async function salesInvoiceList() {
         )
       )
       .click();
-    await driver.sleep(100);
-
     await driver.sleep(1000);
     await driver
       .findElement(
@@ -1936,15 +1934,15 @@ async function salesInvoiceList() {
       )
       .click();
     await driver.sleep(100);
-    const goodsInput35 = await driver.findElement(By.id("GoodsId"));
-    await goodsInput35.click();
-    await goodsInput35.sendKeys("new goods");
+    const flightGoodsInput = await driver.findElement(By.id("GoodsId"));
+    await flightGoodsInput.click();
+    await flightGoodsInput.sendKeys("new goods");
     await driver.sleep(300);
 
-    const feeInput9 = await driver.findElement(By.id("Fee"));
-    await feeInput9.click();
-    await feeInput9.sendKeys(Key.CONTROL + "a");
-    await feeInput9.sendKeys("100");
+    const flightFee = await driver.findElement(By.id("Fee"));
+    await flightFee.click();
+    await flightFee.sendKeys(Key.CONTROL + "a");
+    await flightFee.sendKeys("100");
     await driver.sleep(700);
     await driver
       .findElement(
@@ -1953,9 +1951,9 @@ async function salesInvoiceList() {
         )
       )
       .click();
-    const goodsInput34 = await driver.findElement(By.id("Unit1Id"));
-    await goodsInput34.click();
-    await goodsInput34.sendKeys("عدد");
+    const flightUnit = await driver.findElement(By.id("Unit1Id"));
+    await flightUnit.click();
+    await flightUnit.sendKeys("عدد");
     await driver.sleep(300);
     await driver
       .findElement(
@@ -1972,34 +1970,34 @@ async function salesInvoiceList() {
       )
       .sendKeys("1");
     await driver.sleep(700);
-    await driver.findElement(By.id("sellWithCustomerForm_FlightType")).click();
 
-    const options10 = await driver.findElements(
+    // انتخاب نوع پرواز
+    await driver.findElement(By.id("sellWithCustomerForm_FlightType")).click();
+    const flightTypeOptions = await driver.findElements(
       By.id("sellWithCustomerForm_FlightType")
     );
-    if (options10.length > 0) {
+    if (flightTypeOptions.length > 0) {
       await driver.executeScript(
         "arguments[0].scrollIntoView(true);",
-        options10[0]
+        flightTypeOptions[0]
       );
-      await options10[0].click();
+      await flightTypeOptions[0].click();
     }
-    await driver.sleep(300);
+    await driver.sleep(700);
+
+    // ذخیره و برگشت (مثل کد خودت)
     await driver
       .findElement(
         By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
+          "/html/body/div[3]/div/div/2/div[2]/div[2]/div[1]/div[1]/div/div[2]/div"
         )
       )
       .click();
     await driver.sleep(2000);
-    //بارنامه
-    //
+
+    // رفرش و حذف/ذخیره نهایی مثل کد خودت
     await driver.navigate().refresh();
-    // const editBtnXpath = "//span[@aria-label='ویرایش']";
-    // await waitForElement(driver, editBtnXpath);
-    // await driver.findElement(By.xpath(editBtnXpath)).click();
-    // await driver.sleep(100);
+
     const activeBtnXpath = "(//table//tr[1]//span[button[@role='switch']])[1]";
     await waitForElement(driver, activeBtnXpath);
     await driver.findElement(By.xpath(activeBtnXpath)).click();
@@ -2022,7 +2020,6 @@ async function salesInvoiceList() {
     }
   } catch (err) {
     console.error("❌ خطا:", err);
-    // گرفتن اسکرین‌شات برای دیباگ
     try {
       const screenshot = await driver.takeScreenshot();
       fs.writeFileSync("customerGroup-screenshot.png", screenshot, "base64");

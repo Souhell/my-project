@@ -83,10 +83,10 @@ async function tanzimat() {
 
     // اجرای گام‌ها
     const steps = [
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[1]/ul/li[2]/ul/li[1]",
-      // "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div/button[3]",
+      "//div[@role='menuitem' and .//span[text()='فروش']]",
+      "//div[@role='menuitem' and .//span[text()='عملیات']]",
+      "//li[@role='menuitem' and .//span[text()='تخفیفات']]",
+      "//button[.//div[text()='افزودن مورد جدید']]",
     ];
 
     for (const xpath of steps) {
