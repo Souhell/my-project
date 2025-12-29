@@ -587,6 +587,8 @@ async function customerGroup() {
     }
   } catch (err) {
     console.error("❌ خطا:", err);
+    let t = driver.findElement(By.xpath("/html/body/div[2]/div/div/div[1]/div/div/div[2]/div[2]")).text;
+    console.log("valueee",t);
     // گرفتن اسکرین‌شات برای دیباگ
     try {
       const screenshot = await driver.takeScreenshot();

@@ -2,7 +2,7 @@ const { Builder, By, until, Key, Actions } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
-const customDriver = require("../../customerDriver");
+const customDriver = require("../customerDriver");
 
 const colors = {
   red: "\x1b[31m",
@@ -26,10 +26,10 @@ async function marketingTeamList() {
 
     // اجرای گام‌ها
     const steps = [
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]/ul/li[7]",
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
+      "//div[@role='menuitem' and .//span[text()='فروش']]",
+      "/html/body/div[3]/div/div[2]/div[1]/div/div[3]/div/ul/li[4]/ul/li[1]/div",
+      "//li[@role='menuitem' and .//span[text()='تیم مارکتینگ']]",
+      "//button[.//div[text()='افزودن مورد جدید']]",
     ];
 
     for (const xpath of steps) {
@@ -63,7 +63,7 @@ async function marketingTeamList() {
     await driver.sleep(100);
 
     let bodyText = await driver.findElement(By.css("body")).getText();
-    if (bodyText.includes("تنظیم شده")) {
+    if (bodyText.includes("ذخیره شد")) {
       console.log(`${colors.green}ok Aryan ${colors.reset}`);
     } else {
       console.log(`${colors.red}not ok Aryan ${colors.reset}`);
@@ -75,5 +75,5 @@ async function marketingTeamList() {
   }
 }
 
-// marketingTeamList();
+marketingTeamList();
 module.exports = marketingTeamList;

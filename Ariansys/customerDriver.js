@@ -3,6 +3,7 @@ const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const path = require("path");
 const { expect } = require("chai");
+const { spawn } = require("child_process");
 const schedule = require("node-schedule");
 
 const colors = {
@@ -14,6 +15,156 @@ const colors = {
 class customDriver {
   constructor(storageFile = "persistRoot.json") {
     this.storagePath = path.join(__dirname, storageFile);
+    this.ffmpegProcess = null;
+    this.videoPath = null;
+  }
+
+  //recorder feilds
+  ffmpegProcess;
+  FFMPEG_PATH = "C:\\ffmpeg\\bin\\ffmpeg.exe";
+  videoPath;
+  //make guid code
+  uuidv4() {
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
+      /[xy]/g,
+      function (c) {
+        const r = (Math.random() * 16) | 0,
+          v = c == "x" ? r : (r & 0x3) | 0x8;
+        return v.toString(16);
+      }
+    );
+  }
+
+  // ========================
+  // 🎯 starting sc record
+  // ========================
+  _startRecording() {
+    try {
+      this.videoPath = path.join(
+        __dirname,
+        "TestVideos",
+        `${this.uuidv4()}.mp4`
+      );
+
+      if (!fs.existsSync(this.FFMPEG_PATH)) {
+        console.warn("⚠️ ffmpeg error in path => ", this.FFMPEG_PATH);
+        return;
+      }
+
+      this.ffmpegProcess = spawn(this.FFMPEG_PATH, [
+        "-y",
+        "-f",
+        "gdigrab",
+        "-i",
+        "desktop",
+        "-framerate",
+        "30",
+        this.videoPath,
+      ]);
+
+      this.ffmpegProcess.stderr.on("data", (data) => {});
+
+      this.ffmpegProcess.on("error", (err) => {
+        console.error("❌ خطا در اجرای ffmpeg:", err.message);
+      });
+
+      console.log("🎥 rec started...");
+      return this.videoPath;
+    } catch (e) {
+      console.error("❌ can not run ffmpeg", e);
+      this.ffmpegProcess = null;
+    }
+  }
+
+  // ========================
+  // 🎯wait for element
+  // ========================
+  async waitForElement(driver, xpath, timeout = 10000) {
+    return await driver.wait(until.elementLocated(By.xpath(xpath)), timeout);
+  }
+
+  // ========================
+  // 🎯 stop sc record
+  // ========================
+  async stopRecording(errorHappened = false) {
+    if (!this.ffmpegProcess) {
+      console.log("🎞none activate record process");
+      return;
+    }
+
+    const proc = this.ffmpegProcess;
+    const videoPath = this.videoPath;
+
+    this.ffmpegProcess = null;
+    this.videoPath = null;
+
+    return new Promise((resolve) => {
+      let finished = false;
+
+      const finish = () => {
+        if (finished) return;
+        finished = true;
+
+        console.log("rec finished");
+
+        try {
+          if (!errorHappened && fs.existsSync(videoPath)) {
+            fs.unlinkSync(videoPath);
+            console.log("rec success without error");
+          } else if (errorHappened && fs.existsSync(videoPath)) {
+            console.log("rec error =>", videoPath);
+          } else if (errorHappened) {
+            console.warn("⚠️not found file ");
+          }
+        } catch (e) {
+          console.error("⚠️error :", e.message);
+        }
+
+        resolve();
+      };
+
+      if (proc.exitCode !== null) {
+        return finish();
+      }
+
+      proc.on("close", (code) => {
+        console.log(`ffmeg with code:${code} closed`);
+        finish();
+      });
+
+      proc.on("error", (e) => {
+        console.error("⚠️ error in ffmpeg process =>", e.message);
+        finish();
+      });
+
+      try {
+        if (proc.stdin && proc.stdin.writable) {
+          proc.stdin.write("q");
+          proc.stdin.end();
+        } else {
+          proc.kill("SIGINT");
+        }
+      } catch (e) {
+        console.error("⚠️ error in ffmpeg process =>", e.message);
+        try {
+          proc.kill("SIGTERM");
+        } catch (killErr) {
+          console.error("⚠️error ", killErr.message);
+        }
+      }
+
+      setTimeout(() => {
+        if (!finished) {
+          console.warn("⚠️ error in killing ffmpeg process.");
+          try {
+            proc.kill("SIGKILL");
+          } catch (e) {
+            console.error("⚠️ خطا در SIGKILL:", e.message);
+          }
+          finish();
+        }
+      }, 3000);
+    });
   }
 
   // ========================
@@ -55,7 +206,8 @@ class customDriver {
     await this.driver.manage().setTimeouts({ implicit: 10000 });
     await this.driver.manage().window().maximize();
 
-    return this.driver;
+    const videoPath = this._startRecording();
+    return [this.driver, videoPath];
   }
 
   async quit() {
@@ -68,30 +220,30 @@ class customDriver {
   // ========================
   // 🎯 Persist Storage
   // ========================
-  async savePersist() {
-    if (!this.driver) throw new Error("❌ Driver is not initialized.");
-    const persisted = await this.driver.executeScript(
-      `return window.localStorage.getItem("persist:root");`
-    );
-    if (persisted) {
-      fs.writeFileSync(this.storagePath, persisted, "utf-8");
-      console.log(`${colors.green}✅ persist:root saved${colors.reset}`);
-    } else {
-      console.log(`${colors.red}⚠️ No persist:root found${colors.reset}`);
-    }
-  }
+  // async savePersist() {
+  //   if (!this.driver) throw new Error("❌ Driver is not initialized.");
+  //   const persisted = await this.driver.executeScript(
+  //     `return window.localStorage.getItem("persist:root");`
+  //   );
+  //   if (persisted) {
+  //     fs.writeFileSync(this.storagePath, persisted, "utf-8");
+  //     console.log(`${colors.green}✅ persist:root saved${colors.reset}`);
+  //   } else {
+  //     console.log(`${colors.red}⚠️ No persist:root found${colors.reset}`);
+  //   }
+  // }
 
-  async restorePersist() {
-    if (fs.existsSync(this.storagePath)) {
-      const persisted = fs.readFileSync(this.storagePath, "utf-8");
-      await this.driver.executeScript(
-        `window.localStorage.setItem("persist:root", arguments[0]);`,
-        persisted
-      );
-      console.log(`${colors.green}📦 persist:root restored${colors.reset}`);
-      await this.driver.navigate().refresh();
-    }
-  }
+  // async restorePersist() {
+  //   if (fs.existsSync(this.storagePath)) {
+  //     const persisted = fs.readFileSync(this.storagePath, "utf-8");
+  //     await this.driver.executeScript(
+  //       `window.localStorage.setItem("persist:root", arguments[0]);`,
+  //       persisted
+  //     );
+  //     console.log(`${colors.green}📦 persist:root restored${colors.reset}`);
+  //     await this.driver.navigate().refresh();
+  //   }
+  // }
 
   // ========================
   // 🎯 Helpers for Elements

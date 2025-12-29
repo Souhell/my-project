@@ -338,7 +338,7 @@ async function salesInvoiceList() {
         )
       )
       .click();
-        await driver.sleep(1000);
+    await driver.sleep(1000);
     await driver
       .findElement(
         By.xpath(
@@ -1946,13 +1946,13 @@ async function salesInvoiceList() {
     await feeInput9.sendKeys(Key.CONTROL + "a");
     await feeInput9.sendKeys("100");
     await driver.sleep(700);
-    await driver
-      .findElement(
-        By.xpath(
-          "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[4]/span/span"
-        )
-      )
-      .click();
+    // await driver
+    //   .findElement(
+    //     By.xpath(
+    //       "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div/div/div[2]/table/tbody/tr[2]/td[4]/span/span"
+    //     )
+    //   )
+    //   .click();
     const goodsInput34 = await driver.findElement(By.id("Unit1Id"));
     await goodsInput34.click();
     await goodsInput34.sendKeys("عدد");

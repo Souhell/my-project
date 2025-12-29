@@ -79,15 +79,7 @@ async function selectFromDropdown(
       }
     }
 
-    if (options.length === 0) {
-      console.log("هنوز هیچ گزینه‌ای پیدا نشد، تلاش با روش پیشرفته...");
-      return await selectFromDropdownAdvanced(
-        driver,
-        dropdownXpath,
-        optionText,
-        optionIndex
-      );
-    }
+  
 
     console.log(`تعداد گزینه‌های پیدا شده: ${options.length}`);
 
@@ -309,13 +301,17 @@ async function discount() {
     await driver.sleep(700);
 
     const bodyText = await driver.findElement(By.css("body")).getText();
-    if (bodyText.includes("آرین")) {
+    if (bodyText.includes("ذخیره شد")) {
       console.log(`${colors.green}ok Aryan${colors.reset}`);
     } else {
       console.log(`${colors.red}not ok Aryan${colors.reset}`);
     }
   } catch (err) {
     console.error("❌ خطا:", err);
+    let t = driver.findElement(
+      By.xpath("/html/body/div[2]/div/div/div[1]/div/div/div[2]/div[2]")
+    ).text;
+    console.log("valueee", t);
     try {
       const screenshot = await driver.takeScreenshot();
       fs.writeFileSync("customerGroup-screenshot.png", screenshot, "base64");

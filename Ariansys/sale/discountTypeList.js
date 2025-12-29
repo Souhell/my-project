@@ -79,10 +79,10 @@ async function discountTypeList() {
     await dr.login();
 
     const steps = [
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]",
-      "/html/body/div[3]/div/div[2]/div[1]/div[2]/div/div[3]/div/ul/li[4]/ul/li[1]/ul/li[9]",
-      "/html/body/div[3]/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div[1]/button",
+      "//div[@role='menuitem' and .//span[text()='فروش']]",
+      "/html/body/div[3]/div[1]/div[2]/div[1]/div/div[3]/div/ul/li[4]/ul/li[1]",
+      "//li[@role='menuitem' and .//span[text()='نوع تخفیفات']]",
+      "//button[.//div[text()='افزودن مورد جدید']]",
     ];
 
     for (const xpath of steps) {

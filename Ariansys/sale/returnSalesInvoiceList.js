@@ -127,19 +127,34 @@ async function returnSalesInvoiceList() {
     async function selectWithKeyboard(driver, name) {
       try {
         // پیدا کردن دراپ‌داون
-        const dropdown = await driver.findElement(By.css("#rc_select_3"));
+        const dropdown = await driver.findElement(By.id("InvoiceHeaderId"));
 
         // کلیک و تایپ
         await dropdown.click();
         await driver.sleep(500);
         await dropdown.sendKeys(name);
         await driver.sleep(1500);
-
         // استفاده از کلیدهای جهت‌دار و اینتر
-        await dropdown.sendKeys(Key.ARROW_DOWN);
         await driver.sleep(300);
         await dropdown.sendKeys(Key.ENTER);
         await driver.sleep(1000);
+        await driver
+          .findElement(
+            By.xpath(
+              "/html/body/div[3]/div/div[2]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/form/div[4]/div/div[2]/div/div/input"
+            )
+          )
+          .sendKeys("شرح1");
+        await driver.sleep(1000);
+        const goodsInput = await driver.findElement(By.id("GoodsId"));
+
+        // باز کردن دراپ‌داون
+        await goodsInput.click();
+        await driver.sleep(300);
+
+        // زدن SPACE برای باز شدن لیست
+        await goodsInput.sendKeys("1");
+        await driver.sleep(200);
 
         console.log(`✅ فاکتور "${name}" با کیبورد انتخاب شد`);
         return true;
@@ -148,32 +163,12 @@ async function returnSalesInvoiceList() {
         return false;
       }
     }
-    await selectWithKeyboard(driver, "علی محمدیان");
+    await selectWithKeyboard(driver, "24");
     // await selectFromDropdownANT(
     //   driver,
     //   "//label[contains(text(), 'فاکتور مرجع')]/following::div[contains(@class, 'ant-select')][1]",
     //   "علی محمدیان"
     // );
-
-    const saleTypeInput = await driver.wait(
-      until.elementLocated(By.id("sellWithCustomerForm_SaleTypeId")),
-      10000
-    );
-    await saleTypeInput.click();
-    await saleTypeInput.sendKeys("فروش نقدی");
-    await driver.sleep(500);
-    await saleTypeInput.sendKeys(Key.ENTER);
-    await driver.sleep(500);
-
-    const payTypeInput = await driver.wait(
-      until.elementLocated(By.id("sellWithCustomerForm_PayOfTypeId")),
-      10000
-    );
-    await payTypeInput.click();
-    await payTypeInput.sendKeys("نقدی");
-    await driver.sleep(500);
-    await payTypeInput.sendKeys(Key.ENTER);
-    await driver.sleep(500);
 
     const bodyText = await driver.findElement(By.css("body")).getText();
     if (bodyText.includes("آرین")) {
